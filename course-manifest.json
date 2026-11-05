@@ -3,6 +3,7 @@
   "lessons": 126,
   "taxonomy_entries": 342,
   "dedicated_subbranch_courses": 0,
+  "group_microlessons": 33,
   "glossary_terms": 112,
   "timeline_anchors": 60,
   "added_lessons": [
@@ -517,2394 +518,2736 @@
       "group": "历史与理论",
       "term": "艺术哲学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "历史与理论",
       "term": "美学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "历史与理论",
       "term": "艺术史",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "历史与理论",
       "term": "艺术史学史",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "历史与理论",
       "term": "艺术批评",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "历史与理论",
       "term": "图像学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "历史与理论",
       "term": "视觉文化",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "历史与理论",
       "term": "比较艺术学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/历史与理论.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "艺术社会学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "艺术心理学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "艺术人类学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "艺术教育",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "艺术传播",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "艺术管理",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "文化政策",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "人与制度",
       "term": "艺术市场研究",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/人与制度.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "策展",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "博物馆学",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "收藏史",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "来源研究",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "文物保护",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "预防性保护",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "材料与技术研究",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "艺术通识",
       "group": "收藏与保护",
       "term": "数字保存",
       "shared_course": "00-艺术通识/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "00-艺术通识/micro/收藏与保护.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "素描",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "速写",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "钢笔画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "水墨",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "油画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "水彩",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "水粉",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "丙烯",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "蛋彩",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "粉彩",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "拼贴",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "混合材料",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "材料与技法",
       "term": "壁画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/材料与技法.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "木版",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "铜版",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "石版",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "丝网",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "综合版",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "数字版画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "艺术家书",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "插画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "漫画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "版画与出版",
       "term": "连环画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/版画与出版.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "人物",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "肖像",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "风景",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "山水",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "花鸟",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "静物",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "历史画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "抽象绘画",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "绘画与版画",
       "group": "画面问题",
       "term": "书画关系",
       "shared_course": "01-绘画与版画/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "01-绘画与版画/micro/画面问题.html"
     },
     {
       "category": "书法与篆刻",
       "group": "书体",
       "term": "篆书",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/书体.html"
     },
     {
       "category": "书法与篆刻",
       "group": "书体",
       "term": "隶书",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/书体.html"
     },
     {
       "category": "书法与篆刻",
       "group": "书体",
       "term": "楷书",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/书体.html"
     },
     {
       "category": "书法与篆刻",
       "group": "书体",
       "term": "行书",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/书体.html"
     },
     {
       "category": "书法与篆刻",
       "group": "书体",
       "term": "草书",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/书体.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "笔法",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "结体",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "章法",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "临摹",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "集字",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "创作",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "碑学",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "帖学",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "书论",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "硬笔",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "篆刻",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "印学",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "刻字艺术",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "书法与篆刻",
       "group": "研究与实践",
       "term": "文字艺术",
       "shared_course": "02-书法与篆刻/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "02-书法与篆刻/micro/研究与实践.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "圆雕",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "浮雕",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "透雕",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "泥塑",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "木雕",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "石雕",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "金属雕塑",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "陶塑",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "纤维雕塑",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "软雕塑",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "动态雕塑",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "形制与媒材",
       "term": "现成品",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/形制与媒材.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "装置",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "场域特定艺术",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "光装置",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "声音装置",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "公共艺术",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "大地艺术",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "纪念性艺术",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "雕塑与装置",
       "group": "空间与事件",
       "term": "社会参与式艺术",
       "shared_course": "03-雕塑与装置/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "03-雕塑与装置/micro/空间与事件.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "建筑",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "室内",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "展陈空间",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "园林",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "景观",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "城市设计",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "公共空间",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "乡土建筑",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "空间尺度",
       "term": "遗产保护与适应性再利用",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/空间尺度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "平面",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "剖面",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "立面",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "动线",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "结构表达",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "材料",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "光环境",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "声环境",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "气候响应",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "建筑与景观",
       "group": "观察维度",
       "term": "无障碍与包容性空间",
       "shared_course": "04-建筑与景观/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "04-建筑与景观/micro/观察维度.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "陶瓷",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "金工",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "首饰",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "珐琅",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "漆艺",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "玻璃",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "木工",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "家具",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "竹藤",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "织造",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "染色",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "刺绣",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "皮革",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "纸艺",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "工艺材料",
       "term": "装帧",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/工艺材料.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "平面",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "视觉传达",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "字体",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "书籍",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "信息",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "品牌",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "包装",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "产品",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "工业设计",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "服装",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "纺织品",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "交互",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "服务",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "体验",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "社会创新",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "工艺与设计",
       "group": "设计领域",
       "term": "推测设计",
       "shared_course": "05-工艺与设计/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "05-工艺与设计/micro/设计领域.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "纪实",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "新闻",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "街头",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "肖像",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "风光",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "建筑",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "静物",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "时尚",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "商业",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "观念",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "摆拍",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "实验",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "类型与用途",
       "term": "科学影像",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/类型与用途.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "模拟摄影",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "数字摄影",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "暗房",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "无相机摄影",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "摄影书",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "摄影档案",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "摄影展览",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "摄影",
       "group": "技术与呈现",
       "term": "手机摄影",
       "shared_course": "06-摄影/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "06-摄影/micro/技术与呈现.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "诗歌",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "小说",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "短篇",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "长篇",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "散文",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "随笔",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "报告文学",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "回忆录",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "传记",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "戏剧文学",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "寓言",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "童话",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "儿童文学",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "口述文学",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "文类",
       "term": "网络文学",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/文类.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "抒情",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "叙事",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "视角",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "人物",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "结构",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "修辞",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "韵律",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "翻译文学",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "比较文学",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "图像叙事",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "文学与叙事",
       "group": "叙事与语言",
       "term": "跨媒介叙事",
       "shared_course": "07-文学与叙事/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "07-文学与叙事/micro/叙事与语言.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "声乐",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "器乐",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "合奏",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "合唱",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "指挥",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "作曲",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "编曲",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "即兴",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "录音制作",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "电声",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "声音设计",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "声音艺术",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "创作与实践",
       "term": "音景",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/创作与实践.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "节奏",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "节拍",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "旋律",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "音程",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "调式",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "和声",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "复调",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "曲式",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "配器",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "学习维度",
       "term": "民族音乐学",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/学习维度.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "中国传统音乐",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "西方艺术音乐",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "民间音乐",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "宗教音乐",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "爵士",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "流行",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "摇滚",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "电子",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "实验音乐",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "音乐与声音艺术",
       "group": "传统与类型",
       "term": "各地区音乐传统",
       "shared_course": "08-音乐与声音艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "08-音乐与声音艺术/micro/传统与类型.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "中国古典舞",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "民族民间舞",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "芭蕾",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "现代舞",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "当代舞",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "街舞",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "社交舞",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "仪式舞蹈",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "舞蹈剧场",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "实践与传统",
       "term": "接触即兴",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/实践与传统.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "身体与动作",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "空间",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "时间",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "力度",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "编舞",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "舞谱",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "舞蹈史",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "舞蹈影像",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "舞蹈与身体艺术",
       "group": "创作与研究",
       "term": "舞蹈教育",
       "shared_course": "09-舞蹈与身体艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "09-舞蹈与身体艺术/micro/创作与研究.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "话剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "歌剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "音乐剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "舞剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "偶戏",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "物件剧场",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "肢体剧场",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "沉浸式戏剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏剧与综合舞台",
       "term": "应用戏剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏剧与综合舞台.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏曲与曲艺",
       "term": "京剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏曲与曲艺.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏曲与曲艺",
       "term": "昆曲及地方戏曲",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏曲与曲艺.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏曲与曲艺",
       "term": "相声",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏曲与曲艺.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏曲与曲艺",
       "term": "评书",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏曲与曲艺.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏曲与曲艺",
       "term": "鼓曲",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏曲与曲艺.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "戏曲与曲艺",
       "term": "弹词等说唱形式",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/戏曲与曲艺.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "杂技",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "魔术",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "马戏",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "行为表演",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "编剧",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "导演",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "表演",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "舞美",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "舞台灯光",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "舞台声音",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "服装化妆",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "戏剧戏曲与现场表演",
       "group": "现场及协作",
       "term": "舞台管理",
       "shared_course": "10-戏剧戏曲与现场表演/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "10-戏剧戏曲与现场表演/micro/现场及协作.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "剧情电影",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "纪录电影",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "实验电影",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "长片",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "短片",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "电视剧",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "网络视听",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "视频艺术",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "视听形式",
       "term": "散文电影",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/视听形式.html"
     },
     {
       "category": "电影动画与视听",
       "group": "动画",
       "term": "二维动画",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/动画.html"
     },
     {
       "category": "电影动画与视听",
       "group": "动画",
       "term": "三维动画",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/动画.html"
     },
     {
       "category": "电影动画与视听",
       "group": "动画",
       "term": "定格",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/动画.html"
     },
     {
       "category": "电影动画与视听",
       "group": "动画",
       "term": "剪纸动画",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/动画.html"
     },
     {
       "category": "电影动画与视听",
       "group": "动画",
       "term": "沙动画",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/动画.html"
     },
     {
       "category": "电影动画与视听",
       "group": "动画",
       "term": "实验动画",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/动画.html"
     },
     {
       "category": "电影动画与视听",
       "group": "动画",
       "term": "动态影像",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/动画.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "剧作",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "分镜",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "摄影",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "表演",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "剪辑",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "声音",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "配乐",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "美术",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "调色",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "视效",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "制片",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "电影史",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "类型研究",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "电影动画与视听",
       "group": "制作与研究",
       "term": "影像保存",
       "shared_course": "11-电影动画与视听/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "11-电影动画与视听/micro/制作与研究.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "交互装置",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "生成艺术",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "算法艺术",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "创意编程",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "数据艺术",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "网络艺术",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "软件艺术",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "机器人艺术",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "交互与计算",
       "term": "AI艺术",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/交互与计算.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "电子游戏",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "桌面游戏",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "独立游戏",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "严肃游戏",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "游戏叙事",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "关卡",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "游戏视听",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "虚拟现实",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "增强现实",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "混合现实",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "数字媒介与游戏艺术",
       "group": "游戏与沉浸",
       "term": "沉浸体验",
       "shared_course": "12-数字媒介与游戏艺术/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "12-数字媒介与游戏艺术/micro/游戏与沉浸.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "剪纸",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "年画",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "民间绘画",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "民间雕刻",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "皮影",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "节庆造型",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "面具",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "风筝",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "灯彩",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "民间玩具",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "生活中的艺术",
       "term": "民间叙事",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/生活中的艺术.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "行为艺术",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "观念艺术",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "生态艺术",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "社会实践",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "参与式艺术",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "跨文化协作",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "食物艺术",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "嗅觉艺术",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "生物艺术",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     },
     {
       "category": "民间艺术与跨媒介",
       "group": "跨媒介实践",
       "term": "跨感官实践",
       "shared_course": "13-民间艺术与跨媒介/index.html",
-      "dedicated_course": false
+      "dedicated_course": false,
+      "group_microlesson": "13-民间艺术与跨媒介/micro/跨媒介实践.html"
     }
   ]
 }

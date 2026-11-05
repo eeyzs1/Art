@@ -4,6 +4,11 @@ import json
 import build_course as base
 from course_extension_data import TAXONOMY, CONTENT, LEVELS
 from knowledge_data import GLOSSARY, TIMELINE, MASTER_STARTS
+from microlesson_data import MICRO
+
+# 数据完整性：微课必须与分类分组一一对应，缺漏即刻报错。
+_tax_groups={(d[0],g) for d in base.DATA for g in TAXONOMY[d[0]]}
+assert set(MICRO)==_tax_groups,('micro-lessons must cover every taxonomy group exactly',set(MICRO)^_tax_groups)
 
 R=Path(__file__).resolve().parent
 write, esc, page=base.write,base.esc,base.page
@@ -99,13 +104,19 @@ for num,name,subs,goal,kind,original in base.DATA:
         all_lessons.append({'id':f'{num}.{n:02}','title':title,'stage':stage,'path':path})
         local_list.append(f'<li><span class="badge">{stage}</span> <a href="lessons/{n:02}.html">{n:02} · {title}</a></li>')
     # 入门课03的导航已由 build_course 直接链接到04课，无需再对生成文件做字符串补丁。
-    entries=[]
+    entries=[];micro_links=[]
     for group,terms in TAXONOMY[num].items():
+        micro_path=f'{folder}/micro/{group}.html'
+        m=MICRO[(num,group)]
+        hooks=''.join(f'<li><b>{esc(t)}</b>：{esc(p)}</li>' for t,p in m[2])
+        mbody=f'''<p class="lead">分组微课 · 约15分钟 · {group}<br>目标：把这组词条变成三条可用的观察要点和一次练习。</p><section><h2>01 · 为什么有这组词条</h2><p>{m[1]}</p><p class="muted">本课属于<a href="../index.html">{name}</a>的扩展层；方法基础见该门类01–03课。</p></section><section><h2>02 · 三个观察要点</h2><ul>{hooks}</ul><p class="muted">术语定义见<a href="../../reference/glossary.html">核心术语表</a>；真实作品入口见<a href="../../reference/timeline.html">锚点时间线</a>。</p></section><section><h2>03 · 做一次练习</h2><p>{m[3]}</p><label>记录你的观察<textarea data-note="micro" placeholder="我的答案、证据与未知……"></textarea></label></section><section><h2>04 · 验收</h2><details><summary>完成后展开：检查思路</summary><p>{m[4]}</p></details></section><section data-quiz data-feedback="{esc(m[8])}"><h2>05 · 快速自检</h2><p>{m[5]}</p><button type="button" data-correct="true">{esc(m[6])}</button><button type="button" data-correct="false">{esc(m[7])}</button><p class="feedback" aria-live="polite"></p></section><nav><a href="../index.html">{name}目录</a><a href="../../reference/coverage.html">覆盖表</a></nav>'''
+        write(micro_path,enhanced_page(m[0],mbody,2,f'MICRO / {num} · {group}'))
+        micro_links.append(f'<li><a href="micro/{group}.html">{esc(m[0])}</a>（{group}，约15分钟）</li>')
         items=terms.split('、')
-        for term in items:coverage.append({'category':name,'group':group,'term':term,'shared_course':f'{folder}/index.html','dedicated_course':False})
+        for term in items:coverage.append({'category':name,'group':group,'term':term,'shared_course':f'{folder}/index.html','dedicated_course':False,'group_microlesson':micro_path})
         entries.append('<h3>'+group+'</h3><p>'+terms+'</p>')
     original_links=''.join(f'<li><span class="badge">入门</span> <a href="lessons/{i:02}.html">{i:02} · {l[0]}</a></li>' for i,l in enumerate(original,1))
-    body=f'''<p class="lead">{goal}。9课覆盖五个阶段：先入门，再做控制练习、专题项目与大师研读。每次升阶以成果和反馈判断，不按点击次数判断。</p><section><h2>五阶段课程</h2><ol>{original_links}{''.join(local_list)}</ol><p><a href="../reference/roadmap.html">每阶段的要求与长期学习办法</a> · <a href="../reference/coverage.html">子分支覆盖状态</a></p></section><section><h2>本门类的分类索引</h2>{''.join(entries)}<p>这些条目分别来自媒介、形式、用途与研究维度，允许交叉。它们共享上述9课的方法训练；目前没有为每一个条目分别写出专业全课程。</p></section><section><h2>如何选择自己的方向</h2><p>完成05课后，在索引选一个对象明确的子分支，把06–09课作业集中到同一方向。每轮应保留原作分析、个人尝试、外部反馈与实质修订。涉及专门身体技法、材料工艺或工程实现时，需相应条件和现场指导，本文侧重艺术通识、分析、低成本创作与研究。</p></section>'''
+    body=f'''<p class="lead">{goal}。9课覆盖五个阶段：先入门，再做控制练习、专题项目与大师研读。每次升阶以成果和反馈判断，不按点击次数判断。</p><section><h2>五阶段课程</h2><ol>{original_links}{''.join(local_list)}</ol><p><a href="../reference/roadmap.html">每阶段的要求与长期学习办法</a> · <a href="../reference/coverage.html">子分支覆盖状态</a></p></section><section><h2>分组微课</h2><p>每个分类分组配一节约15分钟的微课，把词条接到具体方法与作品上；笔记保存在本页。</p><ul>{''.join(micro_links)}</ul></section><section><h2>本门类的分类索引</h2>{''.join(entries)}<p>这些条目分别来自媒介、形式、用途与研究维度，允许交叉。它们共享上述9课的方法训练，并有分组微课作为入口；目前没有为每一个条目分别写出专业全课程。</p></section><section><h2>如何选择自己的方向</h2><p>完成05课后，在索引选一个对象明确的子分支，把06–09课作业集中到同一方向。每轮应保留原作分析、个人尝试、外部反馈与实质修订。涉及专门身体技法、材料工艺或工程实现时，需相应条件和现场指导，本文侧重艺术通识、分析、低成本创作与研究。</p></section>'''
     write(f'{folder}/index.html',enhanced_page(name,body,1,'FIVE STAGES / NINE LESSONS'))
     outline.append(f'<article class="card"><p class="eyebrow">{num} / 9 LESSONS</p><h2><a href="{folder}/index.html">{name}</a></h2><p>{goal}</p><small>{subs}</small></article>')
     # 核心概念清单：01–03课取概念段首句，04–09课取人工编写的验收点。
@@ -114,8 +125,8 @@ for num,name,subs,goal,kind,original in base.DATA:
     checklist.append((num,name,cl_items))
 
 count=len(coverage)
-rows=''.join(f'<tr><td>{name}</td><td>{group}</td><td>{term}</td><td><a href="../{path}">门类共同课</a><br>尚无独立专门课程</td></tr>' for name,group,term,path in [(v['category'],v['group'],v['term'],v['shared_course']) for v in coverage])
-write('reference/coverage.html',enhanced_page('分类与教材覆盖表',f'''<p class="lead">已编写14个单元、126课；下表登记{count}个分类条目。条目数量不等于独立艺术门类数量，也不等于专业课程数量。</p><section><h2>如何读表</h2><p>“门类共同课”表示该条目可使用所属门类的基础方法与项目课；“尚无独立专门课程”表示没有专讲其全部历史、技法、作品与专业训练的教材。此表不把索引自动算成课程完成。</p><p><a href="taxonomy.html">先了解分类维度与边界</a></p><label>按条目、分组或门类搜索<input id="taxonomy-filter" class="search" type="search" placeholder="例如：陶瓷、曲艺、保护、动画"></label><output id="filter-count" aria-live="polite">登记条目：{count}</output></section><div class="wide"><table><tr><th>门类</th><th>分组</th><th>条目</th><th>覆盖状态</th></tr>{rows.replace('<tr><td>','<tr data-entry><td>')}</table></div>''',1))
+rows=''.join(f'<tr><td>{name}</td><td>{group}</td><td>{term}</td><td><a href="../{shared}">门类共同课</a><br><a href="../{micro}">分组微课</a><br>尚无独立专业全课程</td></tr>' for name,group,term,shared,micro in [(v['category'],v['group'],v['term'],v['shared_course'],v['group_microlesson']) for v in coverage])
+write('reference/coverage.html',enhanced_page('分类与教材覆盖表',f'''<p class="lead">已编写14个单元、126课与{len(MICRO)}节分组微课；下表登记{count}个分类条目。条目数量不等于独立艺术门类数量，也不等于专业课程数量。</p><section><h2>如何读表</h2><p>“门类共同课”表示该条目可使用所属门类的基础方法与项目课；“分组微课”是该条目所属分组的15分钟专门课件；“尚无独立专业全课程”表示没有专讲其全部历史、技法、作品与专业训练的教材。此表不把索引自动算成课程完成。</p><p><a href="taxonomy.html">先了解分类维度与边界</a></p><label>按条目、分组或门类搜索<input id="taxonomy-filter" class="search" type="search" placeholder="例如：陶瓷、曲艺、保护、动画"></label><output id="filter-count" aria-live="polite">登记条目：{count}</output></section><div class="wide"><table><tr><th>门类</th><th>分组</th><th>条目</th><th>覆盖状态</th></tr>{rows.replace('<tr><td>','<tr data-entry><td>')}</table></div>''',1))
 
 cl_sections=[]
 for num,name,items in checklist:
@@ -145,9 +156,9 @@ write('reference/taxonomy.html',enhanced_page('艺术分类扩展索引',TAX_INT
 level_table=''.join(f'<tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>' for a,b,c in LEVELS)
 write('reference/roadmap.html',enhanced_page('从入门走向独立创作与研究',f'''<p class="lead">五阶段路线已经配有正文、作业与反馈标准。“大师研读”指研究成熟作品的方法与长期独立实践，不是阅读后的身份授予。</p><section><h2>每门9课，五个阶段</h2><table><tr><th>阶段</th><th>课号</th><th>可观察的学习成果</th></tr>{level_table}</table><p>先修依次衔接。有经验者可以提交相应阶段成果自查，补足缺项后跳级；完全陌生的领域仍建议从01课开始。</p></section><section><h2>两条学习路线</h2><h3>人文素养路线</h3><p>先完成14门的01–03课建立全景，再选三门学至07课；高级阶段可选择作品分析、比较研究或策展项目，而非要求每门都成为职业创作者。</p><h3>专长路线</h3><p>选一个子分支，将04–09课集中于同一主题反复做项目。每完成一轮，再补该领域的历史、专业技法与原作阅读；与有经验的实践者建立定期反馈。教材不替代专业工作室、音乐或身体技术训练。</p></section><section><h2>为什么课表不等于大师训练完成？</h2><p>高级能力需要跨题材迁移、长期反复修订、同伴和导师批评，以及真实观看与使用经验。读完文字、答对选择题、按提示模仿，都不能单独证明独立判断能力。</p><p>每轮项目应交付四项：可评议的成果、可追溯的过程、最强异议及回应、下一轮要检验的问题。至少两轮在不同对象上成立后，再扩大范围。</p></section><section><h2>年度工作室：重复而不重复自己</h2><ol><li>第一轮：限制媒介和规模，完成一个小项目，找出最弱的能力。</li><li>第二轮：围绕该弱点补基础练习，再做不同对象的新项目。</li><li>第三轮：与不同传统或媒介对照，检验原方法的边界。</li><li>第四轮：整理作品集或研究档案，请熟悉领域的人批评，写出下一年度的问题。</li></ol><p>轮次不对应固定月份，按实际时间和反馈推进；没有证据的熟练不能自动升级为掌握。</p></section><section><h2>项目自评与外部反馈</h2>{RUBRIC}<p><a href="method.html">基础欣赏方法卡</a> · <a href="checklist.html">核心概念自检清单</a> · <a href="glossary.html">核心术语表</a> · <a href="timeline.html">锚点时间线</a> · <a href="coverage.html">课程覆盖边界</a></p><p>方法课需要真实材料支撑：术语表与时间线提供内容层入口；完整艺术史叙事请搭配一部中外通史。</p></section>''',1))
 
-write('index.html',enhanced_page('从作品出发，走向独立判断',f'''<p class="lead">14个门类与基础单元，126节课。从入门观察到专题创作、研究与大师作品研读。每一级都以练习、证据和修订为核心。</p><section><h2>先选择你的入口</h2><nav><a href="00-艺术通识/lessons/01.html">从零开始</a><a href="reference/roadmap.html">五阶段学习路线</a><a href="reference/checklist.html">核心概念自检清单</a><a href="reference/glossary.html">核心术语表</a><a href="reference/timeline.html">锚点时间线</a><a href="reference/taxonomy.html">扩展分类索引</a><a href="reference/coverage.html">教材覆盖表</a></nav><p>分类索引登记{count}个条目，涵盖媒介、形式、材料、专业分工与研究领域，允许交叉。已完成的是门类共同课程；每个子分支的独立专业全课程尚未全部编写。</p></section><h2>每门都有完整阶段路线</h2><div class="grid">{''.join(outline)}</div><section><h2>如何开始而不被数量淹没</h2><p>先读通识01–03课，然后任选一门完成01–05课。每次留下具体作品观察、控制练习与修订记录；再决定是否深入06–09课。无需同时修满所有门类。</p><p>课程可离线阅读，互动示例不调用外部服务；机构原作、录音和外部阅读需联网。开放题需要你实际完成，教材不会自动评定艺术质量。</p></section>'''))
+write('index.html',enhanced_page('从作品出发，走向独立判断',f'''<p class="lead">14个门类与基础单元，126节课。从入门观察到专题创作、研究与大师作品研读。每一级都以练习、证据和修订为核心。</p><section><h2>先选择你的入口</h2><nav><a href="00-艺术通识/lessons/01.html">从零开始</a><a href="reference/roadmap.html">五阶段学习路线</a><a href="reference/checklist.html">核心概念自检清单</a><a href="reference/glossary.html">核心术语表</a><a href="reference/timeline.html">锚点时间线</a><a href="reference/taxonomy.html">扩展分类索引</a><a href="reference/coverage.html">教材覆盖表</a></nav><p>分类索引登记{count}个条目，涵盖媒介、形式、材料、专业分工与研究领域，允许交叉。已完成的是门类共同课与{len(MICRO)}节分组微课；每个子分支的独立专业全课程尚未全部编写。</p></section><h2>每门都有完整阶段路线</h2><div class="grid">{''.join(outline)}</div><section><h2>如何开始而不被数量淹没</h2><p>先读通识01–03课，然后任选一门完成01–05课。每次留下具体作品观察、控制练习与修订记录；再决定是否深入06–09课。无需同时修满所有门类。</p><p>课程可离线阅读，互动示例不调用外部服务；机构原作、录音和外部阅读需联网。开放题需要你实际完成，教材不会自动评定艺术质量。</p></section>'''))
 
-manifest={'units':14,'lessons':126,'taxonomy_entries':count,'dedicated_subbranch_courses':0,'glossary_terms':gl_terms,'timeline_anchors':tl_rows,'added_lessons':all_lessons,'coverage':coverage}
+manifest={'units':14,'lessons':126,'taxonomy_entries':count,'dedicated_subbranch_courses':0,'group_microlessons':len(MICRO),'glossary_terms':gl_terms,'timeline_anchors':tl_rows,'added_lessons':all_lessons,'coverage':coverage}
 write('course-manifest.json',json.dumps(manifest,ensure_ascii=False,indent=2))
 
 # Rewrite user-facing documentation to describe the final scope, not the previous version.
@@ -165,9 +176,9 @@ write('README.md',f'''# 艺术学习室
 
 **上一版没有列出所有分类。** 它只有主要领域地图。现在扩展为14个教学单元和{count}个索引条目，涵盖材料、媒介、文类、专业分工与理论领域；它们彼此交叉，不能当作{count}个互斥门类。没有固定目录可以穷尽全球所有艺术传统和新实践。本页是广泛的学习索引，不是封闭全集或现行官方学科目录。
 
-**已写好从入门到独立创作与研究的门类课程，尚未穷尽每个子分支的专业全教程。** 共126课，每门9课，五阶段均有具体正文、例子、作业与反馈标准。09课为大师作品研读与长期项目，不承诺读完即可成为大师。[覆盖表](./reference/coverage.html)逐项标明：子分支使用门类共同课，目前未分别开设独立专业全课程。没有把索引、生成页数或项目模板冒充全部专业知识。
+**已写好从入门到独立创作与研究的门类课程，尚未穷尽每个子分支的专业全教程。** 共126课，每门9课，五阶段均有具体正文、例子、作业与反馈标准；每个分类分组另配一节15分钟微课（共{len(MICRO)}节）。09课为大师作品研读与长期项目，不承诺读完即可成为大师。[覆盖表](./reference/coverage.html)逐项标明：子分支使用门类共同课与分组微课，目前未分别开设独立专业全课程。没有把索引、生成页数或项目模板冒充全部专业知识。
 
-**方法与知识的分工。** 正文以方法训练为主；[核心术语表](./reference/glossary.html)（{gl_terms}个术语的一句话定义）与[锚点时间线](./reference/timeline.html)（{tl_rows}件真实作品的馆藏入口，中外并置）提供内容层入口，09课均配有具体研读起点。它们不构成完整的艺术史叙事；系统学习历史请搭配一部中外艺术通史，并按方法课的要求核对每条陈述。
+**方法与知识的分工。** 正文以方法训练为主；[核心术语表](./reference/glossary.html)（{gl_terms}个术语的一句话定义）、[锚点时间线](./reference/timeline.html)（{tl_rows}件真实作品的馆藏入口，中外并置）与{len(MICRO)}节分组微课提供内容层入口，09课均配有具体研读起点。它们不构成完整的艺术史叙事；系统学习历史请搭配一部中外艺术通史，并按方法课的要求核对每条陈述。
 
 ## 主分支与文件夹
 
@@ -204,7 +215,7 @@ write('README.md',f'''# 艺术学习室
 - `index.html`：总入口；各门类`index.html`与`lessons/01.html`至`09.html`：导学和课程。
 - `reference/`：方法卡、五阶段路线、核心概念自检清单、核心术语表、锚点时间线、分类索引与覆盖表。
 - `course-manifest.json`：可核对的课程与分类登记。
-- `build_course.py`：入门阶段（01–03课）的数据与模板库，作为模块被调用，不单独生成站点；`course_extension_data.py`：扩展分类与84课的人工编写数据；`knowledge_data.py`：术语表、时间线锚点与09课研读起点的数据；`extend_course.py`：完整站点的唯一入口生成器。
+- `build_course.py`：入门阶段（01–03课）的数据与模板库，作为模块被调用，不单独生成站点；`course_extension_data.py`：扩展分类与84课的人工编写数据；`knowledge_data.py`：术语表、时间线锚点与09课研读起点的数据；`microlesson_data.py`：33个分类分组的微课数据；`extend_course.py`：完整站点的唯一入口生成器。
 - **重建完整版本运行 `python extend_course.py`（会覆盖生成页面，手动改页面前请备份）。** 直接运行 `build_course.py` 会拒绝执行，避免误生成不完整的中间状态。
 - `check_course.py`：开发检查脚本，需要Python Playwright；学习时不需要。
 - `RESOURCES.md`、`MISSION.md`、`NOTES.md`及`_research/teach/`：来源、目标、偏好与教学skill快照。
