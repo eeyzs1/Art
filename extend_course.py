@@ -3,6 +3,7 @@ from pathlib import Path
 import json
 import build_course as base
 from course_extension_data import TAXONOMY, CONTENT, LEVELS
+from knowledge_data import GLOSSARY, TIMELINE, MASTER_STARTS
 
 R=Path(__file__).resolve().parent
 write, esc, page=base.write,base.esc,base.page
@@ -61,6 +62,10 @@ def enhanced_page(title,body,depth=0,sub='STUDY / PRACTICE',nav=''):
     doc=page(title,body,depth,sub,nav)
     return doc.replace('</head>',f'<script defer src="{"../"*depth}assets/advanced.js"></script></head>')
 
+def anchor(word,url):
+    """有链接则输出外链，无链接输出纯文本（时间线中个别机构不提供稳定直链）。"""
+    return f'<a href="{url}" target="_blank" rel="noopener">{esc(word)}</a>' if url else esc(word)
+
 def extra_lab(num,n):
     if n!=4:return ''
     if num in ('01','05','06'):
@@ -86,6 +91,9 @@ for num,name,subs,goal,kind,original in base.DATA:
         nav=f'<a href="../index.html">{name}目录</a><a href="{n-1:02}.html">上一课</a>'
         nav+=f'<a href="{n+1:02}.html">下一课</a>' if n<9 else '<a href="../../reference/roadmap.html">阶段路线</a>'
         body=f'''<p class="lead">{stage} · 第{n}课 / 共9课<br>{duration}。先修：本门类前一课；基础概念不清楚时返回01–03课。</p><section><h2>本课要解决的问题</h2><p>{concept}</p><p>目标：完成“{title}”的具体练习，并能说明一种方法何时有用、何时不足。先用自己的话写一个预测，再开始操作或分析。</p></section><section><h2>示例：选择会产生什么后果</h2><p>{example}</p><p>以上是原创教学情境，不是历史事实引述。请分开记录三个层次：材料中实际出现了什么；你由此作出什么解释；还需要哪些资料才能进一步判断。</p></section>{extra_lab(num,n)}<section><h2>按步骤完成</h2><ol>{''.join('<li>'+s+'</li>' for s in steps)}</ol><h3>本课具体作业</h3><p>{task}</p><label>记录：问题、条件、观察和选择<textarea data-note="project" placeholder="我的问题与预测：\n保持不变的条件：\n观察到的差异：\n我如何选择：\n尚缺的证据："></textarea></label></section><section><h2>反馈：先完成，再展开</h2><details><summary>本课最关键的验收点</summary><p>{criterion}</p><p>若未达到，先缩小作业规模，再补一组对照。若已达到，换一件对象重复方法；结果不同不必视为错误，先检查背景与条件。</p></details><details><summary>常见误区与纠正</summary><p>误区一：只复述术语，未说明它如何对应作品。纠正：给每个术语配一条可定位的证据。</p><p>误区二：用作者意图覆盖实际效果。纠正：先记录观看或测试发生了什么，再解释差距。</p><p>误区三：一次成功就认为掌握。纠正：隔一周换对象再做，并保留失败结果。</p></details>{RUBRIC}</section><section><h2>提交一份可评议的档案</h2><ol><li>作品或分析的原稿、修订稿，附版本日期。</li><li>材料来源、原作名称与版本；无数据的地方写未知。</li><li>一条最有力的反对意见，以及你的回应。</li><li>下一次要检验的具体问题。</li></ol><label>反馈与修订<textarea data-note="revision" placeholder="对方的原话：\n我的判断：\n修改前后：\n我保留的分歧："></textarea></label><label><input type="checkbox" data-plan="{num}-{n}">我已完成作业，并按验收点复核（浏览器尽力保存）</label></section><section><h2>原作与进一步阅读</h2><p><a href="{source[1]}" target="_blank" rel="noopener">{source[0]}</a>：{source[2]}</p><p>资源入口支持查找原作和方法，不代表该页面为本课每个原创例子提供逐条背书。若资源是英文，可先看对象、图纸、时间线与机构说明，再逐段阅读。任何译文都应标明工具或译者。</p></section><section><h2>复习与讨论</h2><p>第二天闭卷复述一个方法和一个限制；第七天换对象再试。将课名、你的作业和最不确定的判断发给老师，可以继续获得逐项反馈。自检不会替代开放题的人工评议。</p></section><nav>{nav}</nav>'''
+        if n==9:
+            m=MASTER_STARTS[num]
+            body+=f'<section><h2>本门研读起点（可替换）</h2><p>主对象：<b>{esc(m[0])}</b>（{esc(m[1])}）。入口：{esc(m[2])}。</p><p>对照对象：<b>{esc(m[3])}</b>（{esc(m[4])}）。研读问题：{esc(m[5])}</p><p>起点只是建议而非唯一选择；替换对象时，保持本课的证据、版本与反馈要求。<a href="../../reference/timeline.html">锚点时间线</a>提供更多候选。</p></section>'
         path=f'{folder}/lessons/{n:02}.html'
         write(path,enhanced_page(title,body,2,f'{stage} / {num}.{n:02}',nav))
         all_lessons.append({'id':f'{num}.{n:02}','title':title,'stage':stage,'path':path})
@@ -113,7 +121,19 @@ cl_sections=[]
 for num,name,items in checklist:
     lis=''.join(f'<li><label><input type="checkbox" data-plan="chk-{num}-{n:02}"><span><span class="badge">{stage}</span> <b>{n:02} · {esc(title)}</b><br><small>{esc(tip)}</small></span></label></li>' for n,title,tip,stage in items)
     cl_sections.append(f'<section><h2>{num} · <a href="../{num}-{name}/index.html">{name}</a></h2><ul class="checklist">{lis}</ul></section>')
-write('reference/checklist.html',enhanced_page('核心概念自检清单',f'''<p class="lead">126课的核心概念与验收点一览，按门类和五阶段排列。勾选规则比清单本身重要。</p><section><h2>怎么用这份清单</h2><ol><li>学完一课，先关掉页面复述概念，再回来勾选；每条小字是该课的关键句或验收点，是复述的最低线索。</li><li>第二天复述失败就取消勾选；第七天换一件新作品再验证一次。</li><li>09课在完成一轮完整项目、收到反馈并做出修订之后才勾选。</li><li>进度保存在当前浏览器，清理缓存会丢失；真正的掌握证据是你的作品与笔记，不是勾选本身。</li></ol><output id="checklist-progress" aria-live="polite">加载中…</output><p><a href="roadmap.html">五阶段路线</a> · <a href="method.html">欣赏方法卡</a></p></section>{''.join(cl_sections)}<section><h2>勾完之后</h2><p>全部门类01–03课勾完后，做一次跨门类比较：两个门类如何处理同一个问题（节奏、空间或叙事）。任何一门勾到09课后，回到<a href="../index.html">首页</a>选择下一个小分支，或进入专长路线的长期项目。</p></section>''',1))
+write('reference/checklist.html',enhanced_page('核心概念自检清单',f'''<p class="lead">126课的核心概念与验收点一览，按门类和五阶段排列。勾选规则比清单本身重要。</p><section><h2>怎么用这份清单</h2><ol><li>学完一课，先关掉页面复述概念，再回来勾选；每条小字是该课的关键句或验收点，是复述的最低线索。</li><li>第二天复述失败就取消勾选；第七天换一件新作品再验证一次。</li><li>09课在完成一轮完整项目、收到反馈并做出修订之后才勾选。</li><li>进度保存在当前浏览器，清理缓存会丢失；真正的掌握证据是你的作品与笔记，不是勾选本身。</li></ol><output id="checklist-progress" aria-live="polite">加载中…</output><p><a href="roadmap.html">五阶段路线</a> · <a href="glossary.html">核心术语表</a> · <a href="timeline.html">锚点时间线</a> · <a href="method.html">欣赏方法卡</a></p></section>{''.join(cl_sections)}<section><h2>勾完之后</h2><p>全部门类01–03课勾完后，做一次跨门类比较：两个门类如何处理同一个问题（节奏、空间或叙事）。任何一门勾到09课后，回到<a href="../index.html">首页</a>选择下一个小分支，或进入专长路线的长期项目。</p></section>''',1))
+
+gl_terms=0;gl_sections=[]
+for num,name,*_ in base.DATA:
+    cards=''.join(f'<article class="card" data-entry><b>{esc(t)}</b><p>{esc(d)}</p><p><small><a href="../{num}-{name}/index.html">所属门类：{name}</a></small></p></article>' for t,d in GLOSSARY[num])
+    gl_terms+=len(GLOSSARY[num]);gl_sections.append(f'<section><h2>{num} · <a href="../{num}-{name}/index.html">{name}</a></h2><div class="grid">{cards}</div></section>')
+write('reference/glossary.html',enhanced_page('核心术语表',f'''<p class="lead">{gl_terms}个基础术语的一句话定义，作为阅读与复习的检索层；定义由本教材编写，供入门使用，不是学科定论。</p><section><h2>怎么用</h2><p>遇到课文中未展开的词先来这里查；每条定义只给最低限度的含义与一个观察线索，深入学习请回到对应门类课程与外部馆藏。</p><label>搜索术语或定义<input id="taxonomy-filter" class="search" type="search" placeholder="例如：皴法、行当、蒙太奇、陶瓷"></label><output id="filter-count" aria-live="polite">收录术语：{gl_terms}</output><p><a href="timeline.html">配套：锚点时间线</a> · <a href="checklist.html">核心概念自检清单</a></p></section>{''.join(gl_sections)}''',1))
+
+tl_rows=0;tl_sections=[]
+for num,name,*_ in base.DATA:
+    rows=''.join(f'<tr><td>{esc(p)}</td><td><b>{anchor(w,u)}</b><br><small>{esc(h)}</small></td><td>{esc(why)}</td></tr>' for p,w,h,u,why in TIMELINE[num])
+    tl_rows+=len(TIMELINE[num]);tl_sections.append(f'<section><h2>{num} · <a href="../{num}-{name}/index.html">{name}</a></h2><div class="wide"><table><tr><th>时期</th><th>作品与创作者</th><th>为何值得看</th></tr>{rows}</table></div></section>')
+write('reference/timeline.html',enhanced_page('锚点时间线',f'''<p class="lead">{tl_rows}件真实作品的入口，中外并置；它们不是“最伟大作品”清单，而是把方法课接到真实材料上的起点。</p><section><h2>怎么用时间线</h2><ol><li>每个门类选一两件，先看图、听音频或读文本，再用方法课的观察框架记录三条证据。</li><li>注意同时性：同世纪的不同地区可能在解决完全不同的问题，不能按“谁更先进”排列。</li><li>馆藏链接指向机构官网或公版档案的入口页；作品信息以馆藏页为准，若与本页不一致，以馆藏为准并记录差异。</li><li>本页不是完整的艺术史叙事；系统学习历史请搭配一部中外艺术通史。</li></ol><p><a href="glossary.html">配套：核心术语表</a> · <a href="roadmap.html">五阶段路线</a> · <a href="checklist.html">核心概念自检清单</a></p></section>{''.join(tl_sections)}''',1))
 
 tax_sections=[]
 for num,name,*_ in base.DATA:
@@ -123,11 +143,11 @@ TAX_INTRO='''<section><h2>先回答：上一版列全了吗？</h2><p>没有。�
 write('reference/taxonomy.html',enhanced_page('艺术分类扩展索引',TAX_INTRO+''.join(tax_sections)+'''<section><h2>还有哪些边界领域？</h2><p>烹饪与食物、香与嗅觉、茶与花、身体装饰、园艺、仪式、电子游戏和生物媒介等，可以在特定语境中成为艺术实践，但并非所有相关活动自动都属于艺术。判断时记录具体实践、社群自述、呈现语境和提出的问题，不把生活行业一概算作新的主门类。</p><p>同一对象可有多重标签。例如皮影可同时归入造型、表演、声音、叙事与民间实践。它在本教材的主要入口是13，关联10、08、07与03。</p><p><a href="coverage.html">查看每个条目的教材覆盖状态 →</a></p></section>''',1))
 
 level_table=''.join(f'<tr><td>{a}</td><td>{b}</td><td>{c}</td></tr>' for a,b,c in LEVELS)
-write('reference/roadmap.html',enhanced_page('从入门走向独立创作与研究',f'''<p class="lead">五阶段路线已经配有正文、作业与反馈标准。“大师研读”指研究成熟作品的方法与长期独立实践，不是阅读后的身份授予。</p><section><h2>每门9课，五个阶段</h2><table><tr><th>阶段</th><th>课号</th><th>可观察的学习成果</th></tr>{level_table}</table><p>先修依次衔接。有经验者可以提交相应阶段成果自查，补足缺项后跳级；完全陌生的领域仍建议从01课开始。</p></section><section><h2>两条学习路线</h2><h3>人文素养路线</h3><p>先完成14门的01–03课建立全景，再选三门学至07课；高级阶段可选择作品分析、比较研究或策展项目，而非要求每门都成为职业创作者。</p><h3>专长路线</h3><p>选一个子分支，将04–09课集中于同一主题反复做项目。每完成一轮，再补该领域的历史、专业技法与原作阅读；与有经验的实践者建立定期反馈。教材不替代专业工作室、音乐或身体技术训练。</p></section><section><h2>为什么课表不等于大师训练完成？</h2><p>高级能力需要跨题材迁移、长期反复修订、同伴和导师批评，以及真实观看与使用经验。读完文字、答对选择题、按提示模仿，都不能单独证明独立判断能力。</p><p>每轮项目应交付四项：可评议的成果、可追溯的过程、最强异议及回应、下一轮要检验的问题。至少两轮在不同对象上成立后，再扩大范围。</p></section><section><h2>年度工作室：重复而不重复自己</h2><ol><li>第一轮：限制媒介和规模，完成一个小项目，找出最弱的能力。</li><li>第二轮：围绕该弱点补基础练习，再做不同对象的新项目。</li><li>第三轮：与不同传统或媒介对照，检验原方法的边界。</li><li>第四轮：整理作品集或研究档案，请熟悉领域的人批评，写出下一年度的问题。</li></ol><p>轮次不对应固定月份，按实际时间和反馈推进；没有证据的熟练不能自动升级为掌握。</p></section><section><h2>项目自评与外部反馈</h2>{RUBRIC}<p><a href="method.html">基础欣赏方法卡</a> · <a href="checklist.html">核心概念自检清单</a> · <a href="coverage.html">课程覆盖边界</a></p></section>''',1))
+write('reference/roadmap.html',enhanced_page('从入门走向独立创作与研究',f'''<p class="lead">五阶段路线已经配有正文、作业与反馈标准。“大师研读”指研究成熟作品的方法与长期独立实践，不是阅读后的身份授予。</p><section><h2>每门9课，五个阶段</h2><table><tr><th>阶段</th><th>课号</th><th>可观察的学习成果</th></tr>{level_table}</table><p>先修依次衔接。有经验者可以提交相应阶段成果自查，补足缺项后跳级；完全陌生的领域仍建议从01课开始。</p></section><section><h2>两条学习路线</h2><h3>人文素养路线</h3><p>先完成14门的01–03课建立全景，再选三门学至07课；高级阶段可选择作品分析、比较研究或策展项目，而非要求每门都成为职业创作者。</p><h3>专长路线</h3><p>选一个子分支，将04–09课集中于同一主题反复做项目。每完成一轮，再补该领域的历史、专业技法与原作阅读；与有经验的实践者建立定期反馈。教材不替代专业工作室、音乐或身体技术训练。</p></section><section><h2>为什么课表不等于大师训练完成？</h2><p>高级能力需要跨题材迁移、长期反复修订、同伴和导师批评，以及真实观看与使用经验。读完文字、答对选择题、按提示模仿，都不能单独证明独立判断能力。</p><p>每轮项目应交付四项：可评议的成果、可追溯的过程、最强异议及回应、下一轮要检验的问题。至少两轮在不同对象上成立后，再扩大范围。</p></section><section><h2>年度工作室：重复而不重复自己</h2><ol><li>第一轮：限制媒介和规模，完成一个小项目，找出最弱的能力。</li><li>第二轮：围绕该弱点补基础练习，再做不同对象的新项目。</li><li>第三轮：与不同传统或媒介对照，检验原方法的边界。</li><li>第四轮：整理作品集或研究档案，请熟悉领域的人批评，写出下一年度的问题。</li></ol><p>轮次不对应固定月份，按实际时间和反馈推进；没有证据的熟练不能自动升级为掌握。</p></section><section><h2>项目自评与外部反馈</h2>{RUBRIC}<p><a href="method.html">基础欣赏方法卡</a> · <a href="checklist.html">核心概念自检清单</a> · <a href="glossary.html">核心术语表</a> · <a href="timeline.html">锚点时间线</a> · <a href="coverage.html">课程覆盖边界</a></p><p>方法课需要真实材料支撑：术语表与时间线提供内容层入口；完整艺术史叙事请搭配一部中外通史。</p></section>''',1))
 
-write('index.html',enhanced_page('从作品出发，走向独立判断',f'''<p class="lead">14个门类与基础单元，126节课。从入门观察到专题创作、研究与大师作品研读。每一级都以练习、证据和修订为核心。</p><section><h2>先选择你的入口</h2><nav><a href="00-艺术通识/lessons/01.html">从零开始</a><a href="reference/roadmap.html">五阶段学习路线</a><a href="reference/checklist.html">核心概念自检清单</a><a href="reference/taxonomy.html">扩展分类索引</a><a href="reference/coverage.html">教材覆盖表</a></nav><p>分类索引登记{count}个条目，涵盖媒介、形式、材料、专业分工与研究领域，允许交叉。已完成的是门类共同课程；每个子分支的独立专业全课程尚未全部编写。</p></section><h2>每门都有完整阶段路线</h2><div class="grid">{''.join(outline)}</div><section><h2>如何开始而不被数量淹没</h2><p>先读通识01–03课，然后任选一门完成01–05课。每次留下具体作品观察、控制练习与修订记录；再决定是否深入06–09课。无需同时修满所有门类。</p><p>课程可离线阅读，互动示例不调用外部服务；机构原作、录音和外部阅读需联网。开放题需要你实际完成，教材不会自动评定艺术质量。</p></section>'''))
+write('index.html',enhanced_page('从作品出发，走向独立判断',f'''<p class="lead">14个门类与基础单元，126节课。从入门观察到专题创作、研究与大师作品研读。每一级都以练习、证据和修订为核心。</p><section><h2>先选择你的入口</h2><nav><a href="00-艺术通识/lessons/01.html">从零开始</a><a href="reference/roadmap.html">五阶段学习路线</a><a href="reference/checklist.html">核心概念自检清单</a><a href="reference/glossary.html">核心术语表</a><a href="reference/timeline.html">锚点时间线</a><a href="reference/taxonomy.html">扩展分类索引</a><a href="reference/coverage.html">教材覆盖表</a></nav><p>分类索引登记{count}个条目，涵盖媒介、形式、材料、专业分工与研究领域，允许交叉。已完成的是门类共同课程；每个子分支的独立专业全课程尚未全部编写。</p></section><h2>每门都有完整阶段路线</h2><div class="grid">{''.join(outline)}</div><section><h2>如何开始而不被数量淹没</h2><p>先读通识01–03课，然后任选一门完成01–05课。每次留下具体作品观察、控制练习与修订记录；再决定是否深入06–09课。无需同时修满所有门类。</p><p>课程可离线阅读，互动示例不调用外部服务；机构原作、录音和外部阅读需联网。开放题需要你实际完成，教材不会自动评定艺术质量。</p></section>'''))
 
-manifest={'units':14,'lessons':126,'taxonomy_entries':count,'dedicated_subbranch_courses':0,'added_lessons':all_lessons,'coverage':coverage}
+manifest={'units':14,'lessons':126,'taxonomy_entries':count,'dedicated_subbranch_courses':0,'glossary_terms':gl_terms,'timeline_anchors':tl_rows,'added_lessons':all_lessons,'coverage':coverage}
 write('course-manifest.json',json.dumps(manifest,ensure_ascii=False,indent=2))
 
 # Rewrite user-facing documentation to describe the final scope, not the previous version.
@@ -146,6 +166,8 @@ write('README.md',f'''# 艺术学习室
 **上一版没有列出所有分类。** 它只有主要领域地图。现在扩展为14个教学单元和{count}个索引条目，涵盖材料、媒介、文类、专业分工与理论领域；它们彼此交叉，不能当作{count}个互斥门类。没有固定目录可以穷尽全球所有艺术传统和新实践。本页是广泛的学习索引，不是封闭全集或现行官方学科目录。
 
 **已写好从入门到独立创作与研究的门类课程，尚未穷尽每个子分支的专业全教程。** 共126课，每门9课，五阶段均有具体正文、例子、作业与反馈标准。09课为大师作品研读与长期项目，不承诺读完即可成为大师。[覆盖表](./reference/coverage.html)逐项标明：子分支使用门类共同课，目前未分别开设独立专业全课程。没有把索引、生成页数或项目模板冒充全部专业知识。
+
+**方法与知识的分工。** 正文以方法训练为主；[核心术语表](./reference/glossary.html)（{gl_terms}个术语的一句话定义）与[锚点时间线](./reference/timeline.html)（{tl_rows}件真实作品的馆藏入口，中外并置）提供内容层入口，09课均配有具体研读起点。它们不构成完整的艺术史叙事；系统学习历史请搭配一部中外艺术通史，并按方法课的要求核对每条陈述。
 
 ## 主分支与文件夹
 
@@ -180,9 +202,9 @@ write('README.md',f'''# 艺术学习室
 ## 文件与重建
 
 - `index.html`：总入口；各门类`index.html`与`lessons/01.html`至`09.html`：导学和课程。
-- `reference/`：方法卡、五阶段路线、核心概念自检清单、分类索引与覆盖表。
+- `reference/`：方法卡、五阶段路线、核心概念自检清单、核心术语表、锚点时间线、分类索引与覆盖表。
 - `course-manifest.json`：可核对的课程与分类登记。
-- `build_course.py`：入门阶段（01–03课）的数据与模板库，作为模块被调用，不单独生成站点；`course_extension_data.py`：扩展分类与84课的人工编写数据；`extend_course.py`：完整站点的唯一入口生成器。
+- `build_course.py`：入门阶段（01–03课）的数据与模板库，作为模块被调用，不单独生成站点；`course_extension_data.py`：扩展分类与84课的人工编写数据；`knowledge_data.py`：术语表、时间线锚点与09课研读起点的数据；`extend_course.py`：完整站点的唯一入口生成器。
 - **重建完整版本运行 `python extend_course.py`（会覆盖生成页面，手动改页面前请备份）。** 直接运行 `build_course.py` 会拒绝执行，避免误生成不完整的中间状态。
 - `check_course.py`：开发检查脚本，需要Python Playwright；学习时不需要。
 - `RESOURCES.md`、`MISSION.md`、`NOTES.md`及`_research/teach/`：来源、目标、偏好与教学skill快照。
