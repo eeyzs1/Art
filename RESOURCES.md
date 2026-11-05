@@ -46,4 +46,12 @@
 - [教育部2022目录通知](https://www.moe.gov.cn/srcsite/A22/moe_833/202209/t20220914_660828.html)与[艺术教指委解读](https://www.moe.gov.cn/fbh/live/2023/55658/dxjy/202312/t20231219_1095135.html)：对照学位目录与广义艺术学习的不同范围，仅陈述此版本。
 - [Met部门与保护研究](https://www.metmuseum.org/departments)：了解保护、材料研究与策展的职业分工。未将本地观察练习视作文物修复技术教程。
 
+## 知识层来源（术语表、时间线与09课研读起点）
+
+- 馆藏与机构入口：[故宫博物院](https://www.dpm.org.cn)、[台北故宫博物院](https://www.npm.gov.tw)、[中国国家博物馆](https://www.chnmuseum.cn)、[敦煌研究院](https://www.dha.ac.cn)、[秦始皇帝陵博物院](http://www.bmy.com.cn)、[大都会艺术博物馆](https://www.metmuseum.org/art/collection)、[MoMA](https://www.moma.org/collection/)、[V&A](https://www.vam.ac.uk/collections)、[乌菲兹美术馆](https://www.uffizi.it)、[荷兰国立博物馆](https://www.rijksmuseum.nl/en/collection)、[卢浮宫](https://www.louvre.fr/en)、[费城艺术博物馆](https://www.philamuseum.org)、[美国国会图书馆](https://www.loc.gov)、[纽约公共图书馆](https://www.nypl.org)、[英国皇家歌剧院](https://www.roh.org.uk)、[BFI](https://www.bfi.org.uk)、[史密森尼Folkways](https://folkways.si.edu)、[包豪斯德绍基金会](https://bauhaus-dessau.de)、[云门舞集](https://www.cloudgate.org.tw)、[玛莎·格雷厄姆舞蹈团](https://marthagraham.org)。
+- 公版与档案：[古腾堡计划](https://www.gutenberg.org)、[中国哲学书电子化计划](https://ctext.org)、[IMSLP](https://imslp.org)、[Internet Archive](https://archive.org)、[Rhizome](https://rhizome.org)、[玛格南图片社](https://www.magnumphotos.com)。
+- 名录制度：[UNESCO非遗名录](https://ich.unesco.org/en/lists)与[世界遗产名录](https://whc.unesco.org/en/list/)。
+
+以上入口页于2026-11-05人工核对可访问；链接指向机构入口页而非深层对象页。作品信息以各馆藏页为准，与本教材不一致时以馆藏为准并记录差异。
+
 本轮课程中的例子、练习、步骤与验收表由本教材原创编排；机构入口用于原作、资料和进一步学习，不声称每条主张均被入口页逐句验证。分类索引是教学用综合整理，并非上述任一机构发布的完整分类。专门子分支课程的缺口列在coverage.html和course-manifest.json中。
