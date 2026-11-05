@@ -1,0 +1,2908 @@
+{
+  "units": 14,
+  "lessons": 126,
+  "taxonomy_entries": 342,
+  "dedicated_subbranch_courses": 0,
+  "added_lessons": [
+    {
+      "id": "00.04",
+      "title": "建立证据等级",
+      "stage": "基础",
+      "path": "00-艺术通识/lessons/04.html"
+    },
+    {
+      "id": "00.05",
+      "title": "艺术史的多条时间线",
+      "stage": "基础",
+      "path": "00-艺术通识/lessons/05.html"
+    },
+    {
+      "id": "00.06",
+      "title": "让理论接受反例",
+      "stage": "进阶",
+      "path": "00-艺术通识/lessons/06.html"
+    },
+    {
+      "id": "00.07",
+      "title": "从主题到研究问题",
+      "stage": "进阶",
+      "path": "00-艺术通识/lessons/07.html"
+    },
+    {
+      "id": "00.08",
+      "title": "策展是一种论证",
+      "stage": "高级",
+      "path": "00-艺术通识/lessons/08.html"
+    },
+    {
+      "id": "00.09",
+      "title": "研究者的独立判断",
+      "stage": "独立创作与研究／大师研读",
+      "path": "00-艺术通识/lessons/09.html"
+    },
+    {
+      "id": "01.04",
+      "title": "明度先于细节",
+      "stage": "基础",
+      "path": "01-绘画与版画/lessons/04.html"
+    },
+    {
+      "id": "01.05",
+      "title": "色彩是关系",
+      "stage": "基础",
+      "path": "01-绘画与版画/lessons/05.html"
+    },
+    {
+      "id": "01.06",
+      "title": "边缘与观看节奏",
+      "stage": "进阶",
+      "path": "01-绘画与版画/lessons/06.html"
+    },
+    {
+      "id": "01.07",
+      "title": "从临摹到变体",
+      "stage": "进阶",
+      "path": "01-绘画与版画/lessons/07.html"
+    },
+    {
+      "id": "01.08",
+      "title": "系列作品中的一致与变化",
+      "stage": "高级",
+      "path": "01-绘画与版画/lessons/08.html"
+    },
+    {
+      "id": "01.09",
+      "title": "大师研读与个人语言",
+      "stage": "独立创作与研究／大师研读",
+      "path": "01-绘画与版画/lessons/09.html"
+    },
+    {
+      "id": "02.04",
+      "title": "让笔画可以比较",
+      "stage": "基础",
+      "path": "02-书法与篆刻/lessons/04.html"
+    },
+    {
+      "id": "02.05",
+      "title": "单字内部的疏密",
+      "stage": "基础",
+      "path": "02-书法与篆刻/lessons/05.html"
+    },
+    {
+      "id": "02.06",
+      "title": "碑帖与版本意识",
+      "stage": "进阶",
+      "path": "02-书法与篆刻/lessons/06.html"
+    },
+    {
+      "id": "02.07",
+      "title": "章法中的节奏",
+      "stage": "进阶",
+      "path": "02-书法与篆刻/lessons/07.html"
+    },
+    {
+      "id": "02.08",
+      "title": "印面与书写的往返",
+      "stage": "高级",
+      "path": "02-书法与篆刻/lessons/08.html"
+    },
+    {
+      "id": "02.09",
+      "title": "从经典进入创作",
+      "stage": "独立创作与研究／大师研读",
+      "path": "02-书法与篆刻/lessons/09.html"
+    },
+    {
+      "id": "03.04",
+      "title": "重心与负空间",
+      "stage": "基础",
+      "path": "03-雕塑与装置/lessons/04.html"
+    },
+    {
+      "id": "03.05",
+      "title": "表面记录过程",
+      "stage": "基础",
+      "path": "03-雕塑与装置/lessons/05.html"
+    },
+    {
+      "id": "03.06",
+      "title": "尺度与观众位置",
+      "stage": "进阶",
+      "path": "03-雕塑与装置/lessons/06.html"
+    },
+    {
+      "id": "03.07",
+      "title": "场地调查先于安装",
+      "stage": "进阶",
+      "path": "03-雕塑与装置/lessons/07.html"
+    },
+    {
+      "id": "03.08",
+      "title": "让装置可以被检验",
+      "stage": "高级",
+      "path": "03-雕塑与装置/lessons/08.html"
+    },
+    {
+      "id": "03.09",
+      "title": "独立空间项目",
+      "stage": "独立创作与研究／大师研读",
+      "path": "03-雕塑与装置/lessons/09.html"
+    },
+    {
+      "id": "04.04",
+      "title": "从身体尺寸读平面",
+      "stage": "基础",
+      "path": "04-建筑与景观/lessons/04.html"
+    },
+    {
+      "id": "04.05",
+      "title": "剖面解释光与高差",
+      "stage": "基础",
+      "path": "04-建筑与景观/lessons/05.html"
+    },
+    {
+      "id": "04.06",
+      "title": "动线中的公共与私密",
+      "stage": "进阶",
+      "path": "04-建筑与景观/lessons/06.html"
+    },
+    {
+      "id": "04.07",
+      "title": "景观有季节与维护",
+      "stage": "进阶",
+      "path": "04-建筑与景观/lessons/07.html"
+    },
+    {
+      "id": "04.08",
+      "title": "从需求到方案迭代",
+      "stage": "高级",
+      "path": "04-建筑与景观/lessons/08.html"
+    },
+    {
+      "id": "04.09",
+      "title": "建筑大师作品的批判研读",
+      "stage": "独立创作与研究／大师研读",
+      "path": "04-建筑与景观/lessons/09.html"
+    },
+    {
+      "id": "05.04",
+      "title": "先写清设计任务",
+      "stage": "基础",
+      "path": "05-工艺与设计/lessons/04.html"
+    },
+    {
+      "id": "05.05",
+      "title": "材料样本与工序记录",
+      "stage": "基础",
+      "path": "05-工艺与设计/lessons/05.html"
+    },
+    {
+      "id": "05.06",
+      "title": "信息层级的任务测试",
+      "stage": "进阶",
+      "path": "05-工艺与设计/lessons/06.html"
+    },
+    {
+      "id": "05.07",
+      "title": "产品的一生",
+      "stage": "进阶",
+      "path": "05-工艺与设计/lessons/07.html"
+    },
+    {
+      "id": "05.08",
+      "title": "原型不是缩小成品",
+      "stage": "高级",
+      "path": "05-工艺与设计/lessons/08.html"
+    },
+    {
+      "id": "05.09",
+      "title": "大师案例与独立设计",
+      "stage": "独立创作与研究／大师研读",
+      "path": "05-工艺与设计/lessons/09.html"
+    },
+    {
+      "id": "06.04",
+      "title": "建立曝光实验日志",
+      "stage": "基础",
+      "path": "06-摄影/lessons/04.html"
+    },
+    {
+      "id": "06.05",
+      "title": "光线方向与质感",
+      "stage": "基础",
+      "path": "06-摄影/lessons/05.html"
+    },
+    {
+      "id": "06.06",
+      "title": "编辑一组照片",
+      "stage": "进阶",
+      "path": "06-摄影/lessons/06.html"
+    },
+    {
+      "id": "06.07",
+      "title": "图注与纪实边界",
+      "stage": "进阶",
+      "path": "06-摄影/lessons/07.html"
+    },
+    {
+      "id": "06.08",
+      "title": "摄影书与展览观看",
+      "stage": "高级",
+      "path": "06-摄影/lessons/08.html"
+    },
+    {
+      "id": "06.09",
+      "title": "长期摄影项目",
+      "stage": "独立创作与研究／大师研读",
+      "path": "06-摄影/lessons/09.html"
+    },
+    {
+      "id": "07.04",
+      "title": "让细读落到字句",
+      "stage": "基础",
+      "path": "07-文学与叙事/lessons/04.html"
+    },
+    {
+      "id": "07.05",
+      "title": "场景中的欲望与阻力",
+      "stage": "基础",
+      "path": "07-文学与叙事/lessons/05.html"
+    },
+    {
+      "id": "07.06",
+      "title": "视角与叙述可靠性",
+      "stage": "进阶",
+      "path": "07-文学与叙事/lessons/06.html"
+    },
+    {
+      "id": "07.07",
+      "title": "结构与修订",
+      "stage": "进阶",
+      "path": "07-文学与叙事/lessons/07.html"
+    },
+    {
+      "id": "07.08",
+      "title": "跨版本与跨文化阅读",
+      "stage": "高级",
+      "path": "07-文学与叙事/lessons/08.html"
+    },
+    {
+      "id": "07.09",
+      "title": "大师作品与个人写作",
+      "stage": "独立创作与研究／大师研读",
+      "path": "07-文学与叙事/lessons/09.html"
+    },
+    {
+      "id": "08.04",
+      "title": "把节奏写成可复现的记录",
+      "stage": "基础",
+      "path": "08-音乐与声音艺术/lessons/04.html"
+    },
+    {
+      "id": "08.05",
+      "title": "旋律中的方向与停顿",
+      "stage": "基础",
+      "path": "08-音乐与声音艺术/lessons/05.html"
+    },
+    {
+      "id": "08.06",
+      "title": "分层聆听与织体",
+      "stage": "进阶",
+      "path": "08-音乐与声音艺术/lessons/06.html"
+    },
+    {
+      "id": "08.07",
+      "title": "曲式是材料之间的关系",
+      "stage": "进阶",
+      "path": "08-音乐与声音艺术/lessons/07.html"
+    },
+    {
+      "id": "08.08",
+      "title": "动机与编配实验",
+      "stage": "高级",
+      "path": "08-音乐与声音艺术/lessons/08.html"
+    },
+    {
+      "id": "08.09",
+      "title": "大师聆听与独立声音项目",
+      "stage": "独立创作与研究／大师研读",
+      "path": "08-音乐与声音艺术/lessons/09.html"
+    },
+    {
+      "id": "09.04",
+      "title": "动作的观察词汇",
+      "stage": "基础",
+      "path": "09-舞蹈与身体艺术/lessons/04.html"
+    },
+    {
+      "id": "09.05",
+      "title": "重心与空间路径",
+      "stage": "基础",
+      "path": "09-舞蹈与身体艺术/lessons/05.html"
+    },
+    {
+      "id": "09.06",
+      "title": "动机的发展",
+      "stage": "进阶",
+      "path": "09-舞蹈与身体艺术/lessons/06.html"
+    },
+    {
+      "id": "09.07",
+      "title": "群体关系与观看位置",
+      "stage": "进阶",
+      "path": "09-舞蹈与身体艺术/lessons/07.html"
+    },
+    {
+      "id": "09.08",
+      "title": "编舞的工作方法",
+      "stage": "高级",
+      "path": "09-舞蹈与身体艺术/lessons/08.html"
+    },
+    {
+      "id": "09.09",
+      "title": "成熟舞作的批判研读",
+      "stage": "独立创作与研究／大师研读",
+      "path": "09-舞蹈与身体艺术/lessons/09.html"
+    },
+    {
+      "id": "10.04",
+      "title": "行动动词与潜台词",
+      "stage": "基础",
+      "path": "10-戏剧戏曲与现场表演/lessons/04.html"
+    },
+    {
+      "id": "10.05",
+      "title": "场面调度的空间逻辑",
+      "stage": "基础",
+      "path": "10-戏剧戏曲与现场表演/lessons/05.html"
+    },
+    {
+      "id": "10.06",
+      "title": "戏曲的程式与具体传统",
+      "stage": "进阶",
+      "path": "10-戏剧戏曲与现场表演/lessons/06.html"
+    },
+    {
+      "id": "10.07",
+      "title": "设计怎样参与戏剧行动",
+      "stage": "进阶",
+      "path": "10-戏剧戏曲与现场表演/lessons/07.html"
+    },
+    {
+      "id": "10.08",
+      "title": "排练是验证选择",
+      "stage": "高级",
+      "path": "10-戏剧戏曲与现场表演/lessons/08.html"
+    },
+    {
+      "id": "10.09",
+      "title": "大师演出与完整制作",
+      "stage": "独立创作与研究／大师研读",
+      "path": "10-戏剧戏曲与现场表演/lessons/09.html"
+    },
+    {
+      "id": "11.04",
+      "title": "镜头的空间连续",
+      "stage": "基础",
+      "path": "11-电影动画与视听/lessons/04.html"
+    },
+    {
+      "id": "11.05",
+      "title": "声音先行与声画关系",
+      "stage": "基础",
+      "path": "11-电影动画与视听/lessons/05.html"
+    },
+    {
+      "id": "11.06",
+      "title": "剪辑中的时长与省略",
+      "stage": "进阶",
+      "path": "11-电影动画与视听/lessons/06.html"
+    },
+    {
+      "id": "11.07",
+      "title": "动画的时间间距",
+      "stage": "进阶",
+      "path": "11-电影动画与视听/lessons/07.html"
+    },
+    {
+      "id": "11.08",
+      "title": "从问题到短片",
+      "stage": "高级",
+      "path": "11-电影动画与视听/lessons/08.html"
+    },
+    {
+      "id": "11.09",
+      "title": "大师段落与独立导演研究",
+      "stage": "独立创作与研究／大师研读",
+      "path": "11-电影动画与视听/lessons/09.html"
+    },
+    {
+      "id": "12.04",
+      "title": "画出状态与转移",
+      "stage": "基础",
+      "path": "12-数字媒介与游戏艺术/lessons/04.html"
+    },
+    {
+      "id": "12.05",
+      "title": "随机与可重复的生成",
+      "stage": "基础",
+      "path": "12-数字媒介与游戏艺术/lessons/05.html"
+    },
+    {
+      "id": "12.06",
+      "title": "游戏机制与表达",
+      "stage": "进阶",
+      "path": "12-数字媒介与游戏艺术/lessons/06.html"
+    },
+    {
+      "id": "12.07",
+      "title": "参与者研究与可访问性",
+      "stage": "进阶",
+      "path": "12-数字媒介与游戏艺术/lessons/07.html"
+    },
+    {
+      "id": "12.08",
+      "title": "AI与数据的过程档案",
+      "stage": "高级",
+      "path": "12-数字媒介与游戏艺术/lessons/08.html"
+    },
+    {
+      "id": "12.09",
+      "title": "独立系统作品与保存",
+      "stage": "独立创作与研究／大师研读",
+      "path": "12-数字媒介与游戏艺术/lessons/09.html"
+    },
+    {
+      "id": "13.04",
+      "title": "把传统写到具体生活里",
+      "stage": "基础",
+      "path": "13-民间艺术与跨媒介/lessons/04.html"
+    },
+    {
+      "id": "13.05",
+      "title": "从材料到表演链条",
+      "stage": "基础",
+      "path": "13-民间艺术与跨媒介/lessons/05.html"
+    },
+    {
+      "id": "13.06",
+      "title": "改编需要说明关系",
+      "stage": "进阶",
+      "path": "13-民间艺术与跨媒介/lessons/06.html"
+    },
+    {
+      "id": "13.07",
+      "title": "行为作品的规则与记录",
+      "stage": "进阶",
+      "path": "13-民间艺术与跨媒介/lessons/07.html"
+    },
+    {
+      "id": "13.08",
+      "title": "跨媒介合作的接口",
+      "stage": "高级",
+      "path": "13-民间艺术与跨媒介/lessons/08.html"
+    },
+    {
+      "id": "13.09",
+      "title": "长期社会与跨媒介项目",
+      "stage": "独立创作与研究／大师研读",
+      "path": "13-民间艺术与跨媒介/lessons/09.html"
+    }
+  ],
+  "coverage": [
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "艺术哲学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "美学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "艺术史",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "艺术史学史",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "艺术批评",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "图像学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "视觉文化",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "历史与理论",
+      "term": "比较艺术学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "艺术社会学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "艺术心理学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "艺术人类学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "艺术教育",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "艺术传播",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "艺术管理",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "文化政策",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "人与制度",
+      "term": "艺术市场研究",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "策展",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "博物馆学",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "收藏史",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "来源研究",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "文物保护",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "预防性保护",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "材料与技术研究",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "艺术通识",
+      "group": "收藏与保护",
+      "term": "数字保存",
+      "shared_course": "00-艺术通识/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "素描",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "速写",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "钢笔画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "水墨",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "油画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "水彩",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "水粉",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "丙烯",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "蛋彩",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "粉彩",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "拼贴",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "混合材料",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "材料与技法",
+      "term": "壁画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "木版",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "铜版",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "石版",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "丝网",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "综合版",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "数字版画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "艺术家书",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "插画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "漫画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "版画与出版",
+      "term": "连环画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "人物",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "肖像",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "风景",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "山水",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "花鸟",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "静物",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "历史画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "抽象绘画",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "绘画与版画",
+      "group": "画面问题",
+      "term": "书画关系",
+      "shared_course": "01-绘画与版画/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "书体",
+      "term": "篆书",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "书体",
+      "term": "隶书",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "书体",
+      "term": "楷书",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "书体",
+      "term": "行书",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "书体",
+      "term": "草书",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "笔法",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "结体",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "章法",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "临摹",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "集字",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "创作",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "碑学",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "帖学",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "书论",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "硬笔",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "篆刻",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "印学",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "刻字艺术",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "书法与篆刻",
+      "group": "研究与实践",
+      "term": "文字艺术",
+      "shared_course": "02-书法与篆刻/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "圆雕",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "浮雕",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "透雕",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "泥塑",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "木雕",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "石雕",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "金属雕塑",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "陶塑",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "纤维雕塑",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "软雕塑",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "动态雕塑",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "形制与媒材",
+      "term": "现成品",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "装置",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "场域特定艺术",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "光装置",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "声音装置",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "公共艺术",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "大地艺术",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "纪念性艺术",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "雕塑与装置",
+      "group": "空间与事件",
+      "term": "社会参与式艺术",
+      "shared_course": "03-雕塑与装置/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "建筑",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "室内",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "展陈空间",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "园林",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "景观",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "城市设计",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "公共空间",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "乡土建筑",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "空间尺度",
+      "term": "遗产保护与适应性再利用",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "平面",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "剖面",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "立面",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "动线",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "结构表达",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "材料",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "光环境",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "声环境",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "气候响应",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "建筑与景观",
+      "group": "观察维度",
+      "term": "无障碍与包容性空间",
+      "shared_course": "04-建筑与景观/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "陶瓷",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "金工",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "首饰",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "珐琅",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "漆艺",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "玻璃",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "木工",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "家具",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "竹藤",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "织造",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "染色",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "刺绣",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "皮革",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "纸艺",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "工艺材料",
+      "term": "装帧",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "平面",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "视觉传达",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "字体",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "书籍",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "信息",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "品牌",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "包装",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "产品",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "工业设计",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "服装",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "纺织品",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "交互",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "服务",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "体验",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "社会创新",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "工艺与设计",
+      "group": "设计领域",
+      "term": "推测设计",
+      "shared_course": "05-工艺与设计/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "纪实",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "新闻",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "街头",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "肖像",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "风光",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "建筑",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "静物",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "时尚",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "商业",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "观念",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "摆拍",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "实验",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "类型与用途",
+      "term": "科学影像",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "模拟摄影",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "数字摄影",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "暗房",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "无相机摄影",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "摄影书",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "摄影档案",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "摄影展览",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "摄影",
+      "group": "技术与呈现",
+      "term": "手机摄影",
+      "shared_course": "06-摄影/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "诗歌",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "小说",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "短篇",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "长篇",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "散文",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "随笔",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "报告文学",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "回忆录",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "传记",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "戏剧文学",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "寓言",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "童话",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "儿童文学",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "口述文学",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "文类",
+      "term": "网络文学",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "抒情",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "叙事",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "视角",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "人物",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "结构",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "修辞",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "韵律",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "翻译文学",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "比较文学",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "图像叙事",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "文学与叙事",
+      "group": "叙事与语言",
+      "term": "跨媒介叙事",
+      "shared_course": "07-文学与叙事/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "声乐",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "器乐",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "合奏",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "合唱",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "指挥",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "作曲",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "编曲",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "即兴",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "录音制作",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "电声",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "声音设计",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "声音艺术",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "创作与实践",
+      "term": "音景",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "节奏",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "节拍",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "旋律",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "音程",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "调式",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "和声",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "复调",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "曲式",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "配器",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "学习维度",
+      "term": "民族音乐学",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "中国传统音乐",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "西方艺术音乐",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "民间音乐",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "宗教音乐",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "爵士",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "流行",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "摇滚",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "电子",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "实验音乐",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "音乐与声音艺术",
+      "group": "传统与类型",
+      "term": "各地区音乐传统",
+      "shared_course": "08-音乐与声音艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "中国古典舞",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "民族民间舞",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "芭蕾",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "现代舞",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "当代舞",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "街舞",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "社交舞",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "仪式舞蹈",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "舞蹈剧场",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "实践与传统",
+      "term": "接触即兴",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "身体与动作",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "空间",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "时间",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "力度",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "编舞",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "舞谱",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "舞蹈史",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "舞蹈影像",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "舞蹈与身体艺术",
+      "group": "创作与研究",
+      "term": "舞蹈教育",
+      "shared_course": "09-舞蹈与身体艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "话剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "歌剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "音乐剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "舞剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "偶戏",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "物件剧场",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "肢体剧场",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "沉浸式戏剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏剧与综合舞台",
+      "term": "应用戏剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏曲与曲艺",
+      "term": "京剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏曲与曲艺",
+      "term": "昆曲及地方戏曲",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏曲与曲艺",
+      "term": "相声",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏曲与曲艺",
+      "term": "评书",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏曲与曲艺",
+      "term": "鼓曲",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "戏曲与曲艺",
+      "term": "弹词等说唱形式",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "杂技",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "魔术",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "马戏",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "行为表演",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "编剧",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "导演",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "表演",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "舞美",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "舞台灯光",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "舞台声音",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "服装化妆",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "戏剧戏曲与现场表演",
+      "group": "现场及协作",
+      "term": "舞台管理",
+      "shared_course": "10-戏剧戏曲与现场表演/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "剧情电影",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "纪录电影",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "实验电影",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "长片",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "短片",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "电视剧",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "网络视听",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "视频艺术",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "视听形式",
+      "term": "散文电影",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "动画",
+      "term": "二维动画",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "动画",
+      "term": "三维动画",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "动画",
+      "term": "定格",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "动画",
+      "term": "剪纸动画",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "动画",
+      "term": "沙动画",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "动画",
+      "term": "实验动画",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "动画",
+      "term": "动态影像",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "剧作",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "分镜",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "摄影",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "表演",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "剪辑",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "声音",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "配乐",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "美术",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "调色",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "视效",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "制片",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "电影史",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "类型研究",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "电影动画与视听",
+      "group": "制作与研究",
+      "term": "影像保存",
+      "shared_course": "11-电影动画与视听/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "交互装置",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "生成艺术",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "算法艺术",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "创意编程",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "数据艺术",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "网络艺术",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "软件艺术",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "机器人艺术",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "交互与计算",
+      "term": "AI艺术",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "电子游戏",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "桌面游戏",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "独立游戏",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "严肃游戏",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "游戏叙事",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "关卡",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "游戏视听",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "虚拟现实",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "增强现实",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "混合现实",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "数字媒介与游戏艺术",
+      "group": "游戏与沉浸",
+      "term": "沉浸体验",
+      "shared_course": "12-数字媒介与游戏艺术/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "剪纸",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "年画",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "民间绘画",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "民间雕刻",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "皮影",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "节庆造型",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "面具",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "风筝",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "灯彩",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "民间玩具",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "生活中的艺术",
+      "term": "民间叙事",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "行为艺术",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "观念艺术",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "生态艺术",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "社会实践",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "参与式艺术",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "跨文化协作",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "食物艺术",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "嗅觉艺术",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "生物艺术",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    },
+    {
+      "category": "民间艺术与跨媒介",
+      "group": "跨媒介实践",
+      "term": "跨感官实践",
+      "shared_course": "13-民间艺术与跨媒介/index.html",
+      "dedicated_course": false
+    }
+  ]
+}

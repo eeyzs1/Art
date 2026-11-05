@@ -1,0 +1,2 @@
+# 仅开发检查需要（check_course.py）；学习教材本身无需安装任何依赖。
+playwright>=1.40
