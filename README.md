@@ -131,7 +131,7 @@
 ## 文件与重建
 
 - `index.html`：总入口；各门类`index.html`与`lessons/01.html`至`09.html`：导学和课程。
-- `reference/`：方法卡、五阶段路线、分类索引与覆盖表。
+- `reference/`：方法卡、五阶段路线、核心概念自检清单、分类索引与覆盖表。
 - `course-manifest.json`：可核对的课程与分类登记。
 - `build_course.py`：入门阶段（01–03课）的数据与模板库，作为模块被调用，不单独生成站点；`course_extension_data.py`：扩展分类与84课的人工编写数据；`extend_course.py`：完整站点的唯一入口生成器。
 - **重建完整版本运行 `python extend_course.py`（会覆盖生成页面，手动改页面前请备份）。** 直接运行 `build_course.py` 会拒绝执行，避免误生成不完整的中间状态。
