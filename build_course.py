@@ -1,9 +1,12 @@
 from pathlib import Path
 import html, json
+import lang_switch
 
 ROOT=Path(__file__).resolve().parent
 def write(name,text):
-    p=ROOT/name;p.parent.mkdir(parents=True,exist_ok=True);p.write_text(text,encoding='utf-8')
+    p=ROOT/name;p.parent.mkdir(parents=True,exist_ok=True)
+    if p.suffix=='.html':text=lang_switch.inject(text,lang_switch.switch_link(p,ROOT))
+    p.write_text(text,encoding='utf-8')
 def esc(s):return html.escape(s)
 
 # Each row is an authored teaching unit, not an outline placeholder.

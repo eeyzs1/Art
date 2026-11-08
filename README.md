@@ -4,7 +4,7 @@
 
 ## 打开教材
 
-双击 [index.html](./index.html)，无需安装依赖。先读[五阶段路线](./reference/roadmap.html)，也可直接进入[通识第一课](./00-艺术通识/lessons/01.html)。
+双击 [index.html](./index.html)，无需安装依赖。先读[五阶段路线](./reference/roadmap.html)，也可直接进入[通识第一课](./00-艺术通识/lessons/01.html)。英文版见 [en/index.html](./en/index.html)。
 
 ## 对两个问题的准确回答
 
@@ -139,5 +139,6 @@
 - **重建完整版本运行 `python extend_course.py`（会覆盖生成页面，手动改页面前请备份）。** 直接运行 `build_course.py` 会拒绝执行，避免误生成不完整的中间状态。
 - `check_course.py`：开发检查脚本，需要Python Playwright；学习时不需要。
 - `RESOURCES.md`、`MISSION.md`、`NOTES.md`及`_research/teach/`：来源、目标、偏好与教学skill快照。
+- `en/`：英文版站点树，与中文版逐页对应，每页页头提供中英文切换链接；数据与生成器为`build_course_en.py`、`course_extension_data_en.py`、`knowledge_data_en.py`、`microlesson_data_en.py`与`extend_course_en.py`（英文文档见`en/README.md`）。
 
 正文、原创图形与本地实验可离线使用；外部馆藏需联网。笔记和勾选通过浏览器localStorage尽力保存，file协议和清理缓存可能影响留存；重要内容请另存。页面不会自动评定开放作业，也不会自动证明已掌握。未写入用户尚未完成的学习记录。

@@ -1,0 +1,3253 @@
+{
+  "units": 14,
+  "lessons": 126,
+  "taxonomy_entries": 342,
+  "dedicated_subbranch_courses": 0,
+  "group_microlessons": 33,
+  "glossary_terms": 132,
+  "timeline_anchors": 127,
+  "added_lessons": [
+    {
+      "id": "00.04",
+      "title": "Tiers of evidence",
+      "stage": "Foundational",
+      "path": "00-art-fundamentals/lessons/04.html"
+    },
+    {
+      "id": "00.05",
+      "title": "Multiple timelines of art history",
+      "stage": "Foundational",
+      "path": "00-art-fundamentals/lessons/05.html"
+    },
+    {
+      "id": "00.06",
+      "title": "Making theory face counterexamples",
+      "stage": "Intermediate",
+      "path": "00-art-fundamentals/lessons/06.html"
+    },
+    {
+      "id": "00.07",
+      "title": "From topic to research question",
+      "stage": "Intermediate",
+      "path": "00-art-fundamentals/lessons/07.html"
+    },
+    {
+      "id": "00.08",
+      "title": "Curating is an argument",
+      "stage": "Advanced",
+      "path": "00-art-fundamentals/lessons/08.html"
+    },
+    {
+      "id": "00.09",
+      "title": "The researcher's independent judgment",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "00-art-fundamentals/lessons/09.html"
+    },
+    {
+      "id": "01.04",
+      "title": "Value before detail",
+      "stage": "Foundational",
+      "path": "01-painting-and-printmaking/lessons/04.html"
+    },
+    {
+      "id": "01.05",
+      "title": "Color is a relationship",
+      "stage": "Foundational",
+      "path": "01-painting-and-printmaking/lessons/05.html"
+    },
+    {
+      "id": "01.06",
+      "title": "Edges and the rhythm of looking",
+      "stage": "Intermediate",
+      "path": "01-painting-and-printmaking/lessons/06.html"
+    },
+    {
+      "id": "01.07",
+      "title": "From copy to variation",
+      "stage": "Intermediate",
+      "path": "01-painting-and-printmaking/lessons/07.html"
+    },
+    {
+      "id": "01.08",
+      "title": "Consistency and change in a series",
+      "stage": "Advanced",
+      "path": "01-painting-and-printmaking/lessons/08.html"
+    },
+    {
+      "id": "01.09",
+      "title": "Masterwork study and a personal language",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "01-painting-and-printmaking/lessons/09.html"
+    },
+    {
+      "id": "02.04",
+      "title": "Making strokes comparable",
+      "stage": "Foundational",
+      "path": "02-calligraphy-and-seal-carving/lessons/04.html"
+    },
+    {
+      "id": "02.05",
+      "title": "Density inside a single character",
+      "stage": "Foundational",
+      "path": "02-calligraphy-and-seal-carving/lessons/05.html"
+    },
+    {
+      "id": "02.06",
+      "title": "Steles, modelbooks and version awareness",
+      "stage": "Intermediate",
+      "path": "02-calligraphy-and-seal-carving/lessons/06.html"
+    },
+    {
+      "id": "02.07",
+      "title": "Rhythm in overall composition",
+      "stage": "Intermediate",
+      "path": "02-calligraphy-and-seal-carving/lessons/07.html"
+    },
+    {
+      "id": "02.08",
+      "title": "The seal face and writing, back and forth",
+      "stage": "Advanced",
+      "path": "02-calligraphy-and-seal-carving/lessons/08.html"
+    },
+    {
+      "id": "02.09",
+      "title": "Entering creation through the classics",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "02-calligraphy-and-seal-carving/lessons/09.html"
+    },
+    {
+      "id": "03.04",
+      "title": "Balance and negative space",
+      "stage": "Foundational",
+      "path": "03-sculpture-and-installation/lessons/04.html"
+    },
+    {
+      "id": "03.05",
+      "title": "Surfaces record process",
+      "stage": "Foundational",
+      "path": "03-sculpture-and-installation/lessons/05.html"
+    },
+    {
+      "id": "03.06",
+      "title": "Scale and viewer position",
+      "stage": "Intermediate",
+      "path": "03-sculpture-and-installation/lessons/06.html"
+    },
+    {
+      "id": "03.07",
+      "title": "Site survey before installation",
+      "stage": "Intermediate",
+      "path": "03-sculpture-and-installation/lessons/07.html"
+    },
+    {
+      "id": "03.08",
+      "title": "Making an installation testable",
+      "stage": "Advanced",
+      "path": "03-sculpture-and-installation/lessons/08.html"
+    },
+    {
+      "id": "03.09",
+      "title": "An independent spatial project",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "03-sculpture-and-installation/lessons/09.html"
+    },
+    {
+      "id": "04.04",
+      "title": "Reading plans from body size",
+      "stage": "Foundational",
+      "path": "04-architecture-and-landscape/lessons/04.html"
+    },
+    {
+      "id": "04.05",
+      "title": "Sections explain light and level changes",
+      "stage": "Foundational",
+      "path": "04-architecture-and-landscape/lessons/05.html"
+    },
+    {
+      "id": "04.06",
+      "title": "Public and private along the circulation",
+      "stage": "Intermediate",
+      "path": "04-architecture-and-landscape/lessons/06.html"
+    },
+    {
+      "id": "04.07",
+      "title": "Landscape has seasons and maintenance",
+      "stage": "Intermediate",
+      "path": "04-architecture-and-landscape/lessons/07.html"
+    },
+    {
+      "id": "04.08",
+      "title": "From need to scheme iteration",
+      "stage": "Advanced",
+      "path": "04-architecture-and-landscape/lessons/08.html"
+    },
+    {
+      "id": "04.09",
+      "title": "A critical study of masterworks of architecture",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "04-architecture-and-landscape/lessons/09.html"
+    },
+    {
+      "id": "05.04",
+      "title": "Write the design brief first",
+      "stage": "Foundational",
+      "path": "05-craft-and-design/lessons/04.html"
+    },
+    {
+      "id": "05.05",
+      "title": "Material samples and process records",
+      "stage": "Foundational",
+      "path": "05-craft-and-design/lessons/05.html"
+    },
+    {
+      "id": "05.06",
+      "title": "Task-testing visual hierarchy",
+      "stage": "Intermediate",
+      "path": "05-craft-and-design/lessons/06.html"
+    },
+    {
+      "id": "05.07",
+      "title": "The life of a product",
+      "stage": "Intermediate",
+      "path": "05-craft-and-design/lessons/07.html"
+    },
+    {
+      "id": "05.08",
+      "title": "A prototype is not a shrunken product",
+      "stage": "Advanced",
+      "path": "05-craft-and-design/lessons/08.html"
+    },
+    {
+      "id": "05.09",
+      "title": "Mastercase studies and independent design",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "05-craft-and-design/lessons/09.html"
+    },
+    {
+      "id": "06.04",
+      "title": "Keeping an exposure log",
+      "stage": "Foundational",
+      "path": "06-photography/lessons/04.html"
+    },
+    {
+      "id": "06.05",
+      "title": "Light direction and texture",
+      "stage": "Foundational",
+      "path": "06-photography/lessons/05.html"
+    },
+    {
+      "id": "06.06",
+      "title": "Editing a set of photographs",
+      "stage": "Intermediate",
+      "path": "06-photography/lessons/06.html"
+    },
+    {
+      "id": "06.07",
+      "title": "Captions and the documentary boundary",
+      "stage": "Intermediate",
+      "path": "06-photography/lessons/07.html"
+    },
+    {
+      "id": "06.08",
+      "title": "Photobooks and exhibition viewing",
+      "stage": "Advanced",
+      "path": "06-photography/lessons/08.html"
+    },
+    {
+      "id": "06.09",
+      "title": "A long-term photography project",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "06-photography/lessons/09.html"
+    },
+    {
+      "id": "07.04",
+      "title": "Grounding Close Reading in Words and Sentences",
+      "stage": "Foundational",
+      "path": "07-literature-and-narrative/lessons/04.html"
+    },
+    {
+      "id": "07.05",
+      "title": "Desire and Obstacle in the Scene",
+      "stage": "Foundational",
+      "path": "07-literature-and-narrative/lessons/05.html"
+    },
+    {
+      "id": "07.06",
+      "title": "Point of View and Narrative Reliability",
+      "stage": "Intermediate",
+      "path": "07-literature-and-narrative/lessons/06.html"
+    },
+    {
+      "id": "07.07",
+      "title": "Structure and Revision",
+      "stage": "Intermediate",
+      "path": "07-literature-and-narrative/lessons/07.html"
+    },
+    {
+      "id": "07.08",
+      "title": "Reading Across Versions and Cultures",
+      "stage": "Advanced",
+      "path": "07-literature-and-narrative/lessons/08.html"
+    },
+    {
+      "id": "07.09",
+      "title": "Masterworks and Personal Writing",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "07-literature-and-narrative/lessons/09.html"
+    },
+    {
+      "id": "08.04",
+      "title": "Writing Rhythm as a Reproducible Record",
+      "stage": "Foundational",
+      "path": "08-music-and-sound-art/lessons/04.html"
+    },
+    {
+      "id": "08.05",
+      "title": "Direction and Rest in Melody",
+      "stage": "Foundational",
+      "path": "08-music-and-sound-art/lessons/05.html"
+    },
+    {
+      "id": "08.06",
+      "title": "Layered Listening and Texture",
+      "stage": "Intermediate",
+      "path": "08-music-and-sound-art/lessons/06.html"
+    },
+    {
+      "id": "08.07",
+      "title": "Musical Form as Relations Between Materials",
+      "stage": "Intermediate",
+      "path": "08-music-and-sound-art/lessons/07.html"
+    },
+    {
+      "id": "08.08",
+      "title": "Motif and Arranging Experiments",
+      "stage": "Advanced",
+      "path": "08-music-and-sound-art/lessons/08.html"
+    },
+    {
+      "id": "08.09",
+      "title": "Master Listening and the Independent Sound Project",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "08-music-and-sound-art/lessons/09.html"
+    },
+    {
+      "id": "09.04",
+      "title": "An Observation Vocabulary for Movement",
+      "stage": "Foundational",
+      "path": "09-dance-and-body-based-art/lessons/04.html"
+    },
+    {
+      "id": "09.05",
+      "title": "Weight and Spatial Pathways",
+      "stage": "Foundational",
+      "path": "09-dance-and-body-based-art/lessons/05.html"
+    },
+    {
+      "id": "09.06",
+      "title": "Developing a Movement Motif",
+      "stage": "Intermediate",
+      "path": "09-dance-and-body-based-art/lessons/06.html"
+    },
+    {
+      "id": "09.07",
+      "title": "Group Relations and Viewing Position",
+      "stage": "Intermediate",
+      "path": "09-dance-and-body-based-art/lessons/07.html"
+    },
+    {
+      "id": "09.08",
+      "title": "Working Methods of Choreography",
+      "stage": "Advanced",
+      "path": "09-dance-and-body-based-art/lessons/08.html"
+    },
+    {
+      "id": "09.09",
+      "title": "Critical Study of Mature Choreography",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "09-dance-and-body-based-art/lessons/09.html"
+    },
+    {
+      "id": "10.04",
+      "title": "Action Verbs and Subtext",
+      "stage": "Foundational",
+      "path": "10-theatre-chinese-opera-and-live-performance/lessons/04.html"
+    },
+    {
+      "id": "10.05",
+      "title": "The Spatial Logic of Blocking",
+      "stage": "Foundational",
+      "path": "10-theatre-chinese-opera-and-live-performance/lessons/05.html"
+    },
+    {
+      "id": "10.06",
+      "title": "Xiqu Conventions and Specific Traditions",
+      "stage": "Intermediate",
+      "path": "10-theatre-chinese-opera-and-live-performance/lessons/06.html"
+    },
+    {
+      "id": "10.07",
+      "title": "How Design Joins the Theatrical Action",
+      "stage": "Intermediate",
+      "path": "10-theatre-chinese-opera-and-live-performance/lessons/07.html"
+    },
+    {
+      "id": "10.08",
+      "title": "Rehearsal as the Test of Choices",
+      "stage": "Advanced",
+      "path": "10-theatre-chinese-opera-and-live-performance/lessons/08.html"
+    },
+    {
+      "id": "10.09",
+      "title": "Master Performances and Full Productions",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "10-theatre-chinese-opera-and-live-performance/lessons/09.html"
+    },
+    {
+      "id": "11.04",
+      "title": "Spatial Continuity Across Shots",
+      "stage": "Foundational",
+      "path": "11-film-animation-and-audiovisual-arts/lessons/04.html"
+    },
+    {
+      "id": "11.05",
+      "title": "Sound Leading the Image and Sound-Image Relations",
+      "stage": "Foundational",
+      "path": "11-film-animation-and-audiovisual-arts/lessons/05.html"
+    },
+    {
+      "id": "11.06",
+      "title": "Duration and Omission in Editing",
+      "stage": "Intermediate",
+      "path": "11-film-animation-and-audiovisual-arts/lessons/06.html"
+    },
+    {
+      "id": "11.07",
+      "title": "Timing and Spacing in Animation",
+      "stage": "Intermediate",
+      "path": "11-film-animation-and-audiovisual-arts/lessons/07.html"
+    },
+    {
+      "id": "11.08",
+      "title": "From Question to Short Film",
+      "stage": "Advanced",
+      "path": "11-film-animation-and-audiovisual-arts/lessons/08.html"
+    },
+    {
+      "id": "11.09",
+      "title": "Master Sequences and Independent Director Study",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "11-film-animation-and-audiovisual-arts/lessons/09.html"
+    },
+    {
+      "id": "12.04",
+      "title": "Drawing States and Transitions",
+      "stage": "Foundational",
+      "path": "12-digital-media-and-game-art/lessons/04.html"
+    },
+    {
+      "id": "12.05",
+      "title": "Randomness and Reproducible Generation",
+      "stage": "Foundational",
+      "path": "12-digital-media-and-game-art/lessons/05.html"
+    },
+    {
+      "id": "12.06",
+      "title": "Game Mechanics and Expression",
+      "stage": "Intermediate",
+      "path": "12-digital-media-and-game-art/lessons/06.html"
+    },
+    {
+      "id": "12.07",
+      "title": "Participant Research and Accessibility",
+      "stage": "Intermediate",
+      "path": "12-digital-media-and-game-art/lessons/07.html"
+    },
+    {
+      "id": "12.08",
+      "title": "Process Archives for AI and Data",
+      "stage": "Advanced",
+      "path": "12-digital-media-and-game-art/lessons/08.html"
+    },
+    {
+      "id": "12.09",
+      "title": "Independent System Works and Preservation",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "12-digital-media-and-game-art/lessons/09.html"
+    },
+    {
+      "id": "13.04",
+      "title": "Writing Tradition Into Everyday Life",
+      "stage": "Foundational",
+      "path": "13-folk-art-and-intermedia/lessons/04.html"
+    },
+    {
+      "id": "13.05",
+      "title": "The Chain from Material to Performance",
+      "stage": "Foundational",
+      "path": "13-folk-art-and-intermedia/lessons/05.html"
+    },
+    {
+      "id": "13.06",
+      "title": "Adaptation Must State Its Relationships",
+      "stage": "Intermediate",
+      "path": "13-folk-art-and-intermedia/lessons/06.html"
+    },
+    {
+      "id": "13.07",
+      "title": "Rules and Records of a Performance Work",
+      "stage": "Intermediate",
+      "path": "13-folk-art-and-intermedia/lessons/07.html"
+    },
+    {
+      "id": "13.08",
+      "title": "Interfaces of Intermedia Collaboration",
+      "stage": "Advanced",
+      "path": "13-folk-art-and-intermedia/lessons/08.html"
+    },
+    {
+      "id": "13.09",
+      "title": "Long-Term Social and Intermedia Projects",
+      "stage": "Independent practice and research / masterwork study",
+      "path": "13-folk-art-and-intermedia/lessons/09.html"
+    }
+  ],
+  "coverage": [
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "philosophy of art",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "aesthetics",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "art history",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "historiography of art history",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "art criticism",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "iconography",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "visual culture",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "History and Theory",
+      "term": "comparative art studies",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/history-and-theory.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "sociology of art",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "psychology of art",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "anthropology of art",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "art education",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "art communication",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "arts management",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "cultural policy",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "People and Institutions",
+      "term": "art market studies",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/people-and-institutions.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "curating",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "museology",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "history of collecting",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "provenance research",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "artifact conservation",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "preventive conservation",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "materials and technical research",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Art Fundamentals",
+      "group": "Collecting and Conservation",
+      "term": "digital preservation",
+      "shared_course": "00-art-fundamentals/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "00-art-fundamentals/micro/collecting-and-conservation.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "drawing",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "sketching",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "pen and ink",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "ink painting",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "oil painting",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "watercolor",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "gouache",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "acrylic",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "egg tempera",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "pastel",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "collage",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "mixed media",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Materials and Techniques",
+      "term": "mural",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/materials-and-techniques.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "woodcut",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "intaglio",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "lithography",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "screenprint",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "mixed-method prints",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "digital printmaking",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "artists' books",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "illustration",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "comics",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Printmaking and Publishing",
+      "term": "lianhuanhua (serialized picture books)",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/printmaking-and-publishing.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "figure painting",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "portraiture",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "landscape",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "shanshui (Chinese landscape painting)",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "bird-and-flower painting",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "still life",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "history painting",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "abstract painting",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Painting and Printmaking",
+      "group": "Pictorial Questions",
+      "term": "the calligraphy-painting relationship",
+      "shared_course": "01-painting-and-printmaking/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "01-painting-and-printmaking/micro/pictorial-questions.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Script Styles",
+      "term": "seal script",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/script-styles.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Script Styles",
+      "term": "clerical script",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/script-styles.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Script Styles",
+      "term": "regular script",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/script-styles.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Script Styles",
+      "term": "running script",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/script-styles.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Script Styles",
+      "term": "cursive script",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/script-styles.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "brushwork",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "character structure",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "overall composition",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "copying after models",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "assembling characters (jizi)",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "creative practice",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "stele studies",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "modelbook studies",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "calligraphy theory",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "hard-pen calligraphy",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "seal carving",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "seal studies",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "engraved-character art",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Calligraphy and Seal Carving",
+      "group": "Research and Practice",
+      "term": "lettering art",
+      "shared_course": "02-calligraphy-and-seal-carving/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "02-calligraphy-and-seal-carving/micro/research-and-practice.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "sculpture in the round",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "relief",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "openwork carving",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "clay modeling",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "wood carving",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "stone carving",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "metal sculpture",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "ceramic sculpture",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "fiber sculpture",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "soft sculpture",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "kinetic sculpture",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Forms and Media",
+      "term": "readymades",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/forms-and-media.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "installation",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "site-specific art",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "light installation",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "sound installation",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "public art",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "land art",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "monumental art",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Sculpture and Installation",
+      "group": "Space and Events",
+      "term": "socially engaged art",
+      "shared_course": "03-sculpture-and-installation/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "03-sculpture-and-installation/micro/space-and-events.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "architecture",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "interiors",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "exhibition spaces",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "gardens",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "landscape",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "urban design",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "public space",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "vernacular architecture",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Spatial Scales",
+      "term": "heritage conservation and adaptive reuse",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/spatial-scales.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "plan",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "section",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "elevation",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "circulation",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "structural expression",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "materials",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "light environment",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "acoustic environment",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "climate response",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Architecture and Landscape",
+      "group": "Dimensions of Observation",
+      "term": "accessible and inclusive space",
+      "shared_course": "04-architecture-and-landscape/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "04-architecture-and-landscape/micro/dimensions-of-observation.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "ceramics",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "metalwork",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "jewelry",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "enamel",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "lacquer",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "glass",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "woodworking",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "furniture",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "bamboo and rattan",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "weaving",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "dyeing",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "embroidery",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "leather",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "paper crafts",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Craft Materials",
+      "term": "bookbinding",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/craft-materials.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "graphic design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "visual communication",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "typography",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "book design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "information design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "brand identity",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "packaging",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "product design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "industrial design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "fashion",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "textiles",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "interaction design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "service design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "experience design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "social innovation",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Craft and Design",
+      "group": "Design Fields",
+      "term": "speculative design",
+      "shared_course": "05-craft-and-design/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "05-craft-and-design/micro/design-fields.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "documentary",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "photojournalism",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "street photography",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "portraiture",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "landscape",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "architectural photography",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "still life",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "fashion",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "commercial",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "conceptual",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "staged photography",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "experimental",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Genres and Uses",
+      "term": "scientific imaging",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/genres-and-uses.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "analog photography",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "digital photography",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "darkroom",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "cameraless photography",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "photobooks",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "photography archives",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "photography exhibitions",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Photography",
+      "group": "Technology and Presentation",
+      "term": "mobile photography",
+      "shared_course": "06-photography/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "06-photography/micro/technology-and-presentation.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "poetry",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "fiction",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "short stories",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "novels",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "essays",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "personal essays",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "reportage",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "memoir",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "biography",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "dramatic literature",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "fables",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "fairy tales",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "children's literature",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "oral literature",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Literary Genres",
+      "term": "web literature",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/literary-genres.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "lyric",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "narrative",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "point of view",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "character",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "structure",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "rhetoric",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "meter",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "translated literature",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "comparative literature",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "visual narrative",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Literature and Narrative",
+      "group": "Narrative and Language",
+      "term": "transmedia storytelling",
+      "shared_course": "07-literature-and-narrative/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "07-literature-and-narrative/micro/narrative-and-language.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "vocal music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "instrumental music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "ensemble",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "chorus",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "conducting",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "composition",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "arranging",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "improvisation",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "recording and production",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "electroacoustic music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "sound design",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "sound art",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Creation and Practice",
+      "term": "soundscape",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/creation-and-practice.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "rhythm",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "meter",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "melody",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "interval",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "mode",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "harmony",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "polyphony",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "musical form",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "orchestration",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Dimensions of Study",
+      "term": "ethnomusicology",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/dimensions-of-study.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "Chinese traditional music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "Western art music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "folk music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "religious music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "jazz",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "pop",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "rock",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "electronic music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "experimental music",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Music and Sound Art",
+      "group": "Traditions and Genres",
+      "term": "regional music traditions",
+      "shared_course": "08-music-and-sound-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "08-music-and-sound-art/micro/traditions-and-genres.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "Chinese classical dance",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "folk and ethnic dance",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "ballet",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "modern dance",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "contemporary dance",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "street dance",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "social dance",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "ritual dance",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "dance theatre",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Practices and Traditions",
+      "term": "contact improvisation",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/practices-and-traditions.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "body and movement",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "space",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "time",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "dynamics",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "choreography",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "dance notation",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "dance history",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "dance on film and video",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Dance and Body-Based Art",
+      "group": "Creation and Research",
+      "term": "dance education",
+      "shared_course": "09-dance-and-body-based-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "09-dance-and-body-based-art/micro/creation-and-research.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "spoken drama",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "opera",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "musical theatre",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "dance drama",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "puppetry",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "object theatre",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "physical theatre",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "immersive theatre",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Theatre and the Integrated Stage",
+      "term": "applied theatre",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/theatre-and-the-integrated-stage.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Xiqu and Quyi",
+      "term": "Peking opera",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/xiqu-and-quyi.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Xiqu and Quyi",
+      "term": "Kunqu and regional xiqu",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/xiqu-and-quyi.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Xiqu and Quyi",
+      "term": "crosstalk (xiangsheng)",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/xiqu-and-quyi.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Xiqu and Quyi",
+      "term": "pingshu storytelling",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/xiqu-and-quyi.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Xiqu and Quyi",
+      "term": "drum songs",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/xiqu-and-quyi.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Xiqu and Quyi",
+      "term": "tanci and other narrative-singing forms",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/xiqu-and-quyi.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "acrobatics",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "magic",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "circus",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "performance art",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "playwriting",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "directing",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "acting",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "stage design",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "stage lighting",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "stage sound",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "costume and makeup",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Theatre, Chinese Opera and Live Performance",
+      "group": "Live Performance and Collaboration",
+      "term": "stage management",
+      "shared_course": "10-theatre-chinese-opera-and-live-performance/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "10-theatre-chinese-opera-and-live-performance/micro/live-performance-and-collaboration.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "fiction film",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "documentary film",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "experimental film",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "feature-length film",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "short film",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "television drama",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "online audiovisual media",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "video art",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Audiovisual Forms",
+      "term": "essay film",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/audiovisual-forms.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Animation",
+      "term": "2D animation",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/animation.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Animation",
+      "term": "3D animation",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/animation.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Animation",
+      "term": "stop motion",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/animation.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Animation",
+      "term": "paper-cut animation",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/animation.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Animation",
+      "term": "sand animation",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/animation.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Animation",
+      "term": "experimental animation",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/animation.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Animation",
+      "term": "moving image",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/animation.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "screenwriting",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "storyboarding",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "cinematography",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "acting",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "editing",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "sound",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "score",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "production design",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "color grading",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "visual effects",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "producing",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "film history",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "genre studies",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Film, Animation and Audiovisual Arts",
+      "group": "Production and Research",
+      "term": "moving-image preservation",
+      "shared_course": "11-film-animation-and-audiovisual-arts/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "11-film-animation-and-audiovisual-arts/micro/production-and-research.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "interactive installation",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "generative art",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "algorithmic art",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "creative coding",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "data art",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "net art",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "software art",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "robotic art",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Interaction and Computation",
+      "term": "AI art",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/interaction-and-computation.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "video games",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "tabletop games",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "independent games",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "serious games",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "game narrative",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "level design",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "game audiovisuals",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "virtual reality",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "augmented reality",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "mixed reality",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Digital Media and Game Art",
+      "group": "Games and Immersion",
+      "term": "immersive experience",
+      "shared_course": "12-digital-media-and-game-art/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "12-digital-media-and-game-art/micro/games-and-immersion.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "paper cutting",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "New Year prints (nianhua)",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "folk painting",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "folk carving",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "shadow puppetry",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "festive forms",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "masks",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "kites",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "lanterns",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "folk toys",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Art in Everyday Life",
+      "term": "folk narrative",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/art-in-everyday-life.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "performance art",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "conceptual art",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "ecological art",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "social practice",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "participatory art",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "cross-cultural collaboration",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "food art",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "olfactory art",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "bio art",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    },
+    {
+      "category": "Folk Art and Intermedia",
+      "group": "Intermedia Practices",
+      "term": "cross-sensory practice",
+      "shared_course": "13-folk-art-and-intermedia/index.html",
+      "dedicated_course": false,
+      "group_microlesson": "13-folk-art-and-intermedia/micro/intermedia-practices.html"
+    }
+  ]
+}
