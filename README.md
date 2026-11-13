@@ -6,9 +6,9 @@
 
 双击 [index.html](./index.html)，无需安装依赖。先读[五阶段路线](./reference/roadmap.html)，也可直接进入[通识第一课](./00-艺术通识/lessons/01.html)。英文版见 [en/index.html](./en/index.html)。
 
-## 对两个问题的准确回答
+## 课程范围与边界
 
-**上一版没有列出所有分类。** 它只有主要领域地图。现在扩展为14个教学单元和342个索引条目，涵盖材料、媒介、文类、专业分工与理论领域；它们彼此交叉，不能当作342个互斥门类。没有固定目录可以穷尽全球所有艺术传统和新实践。本页是广泛的学习索引，不是封闭全集或现行官方学科目录。
+**分类索引包含14个教学单元和342个条目。** 涵盖材料、媒介、文类、专业分工与理论领域；它们彼此交叉，不能当作342个互斥门类。没有固定目录可以穷尽全球所有艺术传统和新实践。本页是广泛的学习索引，不是封闭全集或现行官方学科目录。
 
 **已写好从入门到独立创作与研究的门类课程，尚未穷尽每个子分支的专业全教程。** 共126课，每门9课，五阶段均有具体正文、例子、作业与反馈标准；每个分类分组另配一节15分钟微课（共33节）。09课为大师作品研读与长期项目，不承诺读完即可成为大师。[覆盖表](./reference/coverage.html)逐项标明：子分支使用门类共同课与分组微课，目前未分别开设独立专业全课程。没有把索引、生成页数或项目模板冒充全部专业知识。
 
@@ -130,6 +130,12 @@
 
 专业身体技法、乐器训练、材料工艺与工程实现，需要对应条件及现场指导。本教材重点为通识、观察分析、低成本创作和研究方法，不是所有职业资质的训练替代品。
 
+## 保存学习记录
+
+笔记会尝试自动保存，并显示保存结果；浏览器禁止存储或空间不足时会提示失败。“标记本课完成”会在刷新后恢复，也可以再次点击取消。课程完成标记与“能复述并举例”的自检清单分别记录。
+
+在课程页或自检清单底部点击“导出本页学习记录”，可下载包含当前笔记和勾选状态的 Markdown 文件。导出只包含当前页，也可以在浏览器无法保存时使用；它是可阅读的备份，不提供自动导入或跨设备同步。
+
 ## 文件与重建
 
 - `index.html`：总入口；各门类`index.html`与`lessons/01.html`至`09.html`：导学和课程。
@@ -137,8 +143,29 @@
 - `course-manifest.json`：可核对的课程与分类登记。
 - `build_course.py`：入门阶段（01–03课）的数据与模板库，作为模块被调用，不单独生成站点；`course_extension_data.py`：扩展分类与84课的人工编写数据；`knowledge_data.py`：术语表、时间线锚点与09课研读起点的数据；`microlesson_data.py`：33个分类分组的微课数据；`extend_course.py`：完整站点的唯一入口生成器。
 - **重建完整版本运行 `python extend_course.py`（会覆盖生成页面，手动改页面前请备份）。** 直接运行 `build_course.py` 会拒绝执行，避免误生成不完整的中间状态。
-- `check_course.py`：开发检查脚本，需要Python Playwright；学习时不需要。
+- `static/`：两种语言共用的 JavaScript 与 CSS 源文件；修改后重建，生成到 `assets/` 和 `en/assets/`。脚本根据页面语言选择文案，已有笔记存储键保持兼容。
+- `course_validation.py`：构建前校验课程、分类、术语与微课数据；导入生成器不会写文件，可显式调用 `build_site()` 重建。
+- `check_course.py`：双语开发检查脚本；`--static-only` 无需第三方依赖，完整检查需要 Python Playwright；`_verify_en.py` 保留为静态检查的兼容入口。
+- `tests/` 与 `.github/workflows/check-course.yml`：回归测试与持续集成，覆盖重复构建、导入无写入、数据缺漏和双语页面功能。
 - `RESOURCES.md`、`MISSION.md`、`NOTES.md`及`_research/teach/`：来源、目标、偏好与教学skill快照。
 - `en/`：英文版站点树，与中文版逐页对应，每页页头提供中英文切换链接；数据与生成器为`build_course_en.py`、`course_extension_data_en.py`、`knowledge_data_en.py`、`microlesson_data_en.py`与`extend_course_en.py`（英文文档见`en/README.md`）。
 
-正文、原创图形与本地实验可离线使用；外部馆藏需联网。笔记和勾选通过浏览器localStorage尽力保存，file协议和清理缓存可能影响留存；重要内容请另存。页面不会自动评定开放作业，也不会自动证明已掌握。未写入用户尚未完成的学习记录。
+开发与重建需要 Python 3.10 或更新版本。在仓库根目录运行：
+
+```powershell
+python extend_course.py
+python -m unittest discover -s tests -v
+python check_course.py --static-only
+```
+
+完整浏览器检查：
+
+```powershell
+python -m pip install -r requirements.txt
+python -m playwright install chromium
+python check_course.py
+```
+
+完整检查覆盖中英各181页、本地链接与锚点、清单数据、1280/390/320像素布局、互动实验、file/HTTP两种方式下的记录恢复与导出、存储与音频失败处理，以及减少动态效果。外部馆藏链接的可访问性与艺术史事实需要另行核对。
+
+正文、原创图形与本地实验可离线使用；外部馆藏需联网。笔记和勾选通过浏览器localStorage尽力保存，file协议和清理浏览器数据可能影响留存；重要记录请导出备份。页面不会自动评定开放作业，也不会自动证明已掌握。未写入用户尚未完成的学习记录。

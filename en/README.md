@@ -130,6 +130,12 @@ The groups below are representative and may overlap; subjects, techniques, forms
 
 Professional physical techniques, instrumental training, material crafts and engineering need the corresponding facilities and in-person guidance. This course emphasizes general literacy, observational analysis, low-cost creation and research method; it is not a replacement for professional qualification training.
 
+## Keeping study records
+
+Notes save automatically when browser storage is available, with a visible save status. Blocked storage and quota failures are reported. Lesson completion is restored after reload and can be undone by clicking again. Completion marks and the recall checklist are recorded separately.
+
+Use "Export this page’s study records" at the bottom of a lesson or checklist to download the current notes and checkmarks as a Markdown file. Export includes this page only and also works when storage is unavailable. It is a readable backup; automatic import and cross-device synchronization are not provided.
+
 ## Files and rebuilding
 
 - `en/index.html`: the English edition's main entry; each category's `index.html` and `lessons/01.html` to `09.html`: the guides and lessons.
@@ -137,7 +143,28 @@ Professional physical techniques, instrumental training, material crafts and eng
 - `en/course-manifest.json`: the reviewable registration of courses and categories.
 - `build_course_en.py`: data and template library for the English introductory stage (lessons 01–03); `course_extension_data_en.py`: hand-written data for the expanded categories and the 84 extended lessons; `knowledge_data_en.py`: data for the glossary, timeline anchors and lesson-09 study starting points; `microlesson_data_en.py`: data for the 33 group micro-lessons; `extend_course_en.py`: generator of the English edition under `en/`.
 - **Run `python extend_course.py` to rebuild the complete site in both languages (generated pages are overwritten — back up manual edits first).** Running `build_course_en.py` directly is refused, to avoid generating an incomplete intermediate state.
-- `check_course.py`: development check script, needs Python Playwright; not needed for study.
+- `static/`: shared JavaScript and CSS source files for both editions. Rebuild after editing; output is copied to `assets/` and `en/assets/`. Scripts choose text from the page language and preserve existing note storage keys.
+- `course_validation.py`: validates course, taxonomy, glossary and micro-lesson data before building. Importing a generator does not write files; call `build_site()` explicitly to rebuild.
+- `check_course.py`: bilingual development checks; `--static-only` needs no third-party packages, while full checks need Python Playwright. `_verify_en.py` remains a compatibility entry point for static checks.
+- `tests/` and `.github/workflows/check-course.yml`: regression tests and CI covering repeatable builds, imports without writes, missing data and bilingual page behavior.
 - `RESOURCES.md`, `MISSION.md`, `NOTES.md` and `_research/teach/` (Chinese, at the project root): sources, goals, preferences and the teaching-skill snapshot of the original project.
 
-Text, original graphics and local demos work offline; external collections need a connection. Notes and ticks are saved by the browser's localStorage on a best-effort basis; the file protocol and cache clearing may affect retention — save important content elsewhere. The pages do not automatically grade open assignments and do not automatically prove mastery. No learning record is written before the user has completed anything.
+Development and rebuilding require Python 3.10 or newer. Run from the repository root:
+
+```powershell
+python extend_course.py
+python -m unittest discover -s tests -v
+python check_course.py --static-only
+```
+
+Full browser checks:
+
+```powershell
+python -m pip install -r requirements.txt
+python -m playwright install chromium
+python check_course.py
+```
+
+Checks cover 181 pages in each language, local links and anchors, manifest data, 1280/390/320px layouts, interactive demos, record restoration and export over file/HTTP, storage and audio failure handling, and reduced motion. External collection availability and art-historical facts require separate verification.
+
+Text, original graphics and local demos work offline; external collections need a connection. Notes and ticks are saved by the browser's localStorage on a best-effort basis; the file protocol and clearing browser data may affect retention. Export important records as a backup. The pages do not automatically grade open assignments and do not automatically prove mastery. No learning record is written before the user has completed anything.
